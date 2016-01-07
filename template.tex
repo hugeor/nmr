@@ -1,0 +1,591 @@
+%% aps to author template--please latex to dvi then  dvi to pdf--------------
+\documentclass[A4]{ctexart}
+%\usepackage{slashbox}\backslashbox
+\usepackage{aappss}
+%\renewcommand\baselinestretch{1.235}\protect
+\renewcommand\baselinestretch{2.0}\protect
+\abovedisplayshortskip 0 pt plus 3pt
+\belowdisplayshortskip 6 pt plus 2pt minus 2pt
+\abovedisplayskip 6 pt plus 2pt minus 2pt
+\belowdisplayskip 6 pt plus 2pt minus 2pt
+% \info{2015}{64}{1}{01{}} \infodate{2015.0.0.}{2015.0.0.}
+%=================== Text begin here ==============================
+\usepackage{graphicx} \usepackage{wrapfig} \usepackage{subcaption}
+\graphicspath{ {images/} }
+\usepackage[labelsep=period]{caption}
+\usepackage[top=.9in,bottom=0.8in,left=1.in,right=1in]{geometry}
+\setlength{\parindent}{22pt} 
+\setlength{\parskip}{.5em} 
+\usepackage{hyperref}
+\usepackage{xcolor}
+\hypersetup{
+	colorlinks,
+	linkcolor={red!50!black},
+	citecolor={blue!50!black},
+	urlcolor={blue!80!black}
+}
+
+
+
+
+
+
+
+
+
+\begin{document}\apsname
+
+\title{核磁共振的稳态吸收}%{\cfundlink}
+
+\author{胡乃超$^{1)\dag}$ \quad 金谷柳新$^{1)}$}
+
+\address{1)}{中山大学物理学院, 物理系, 广州 \quad 510275}
+
+%\address{3)}{}
+
+\abstract{中文摘要. 300---400字,摘要中不用缩略词, 不用第一人称. 中英文摘要的结构建议包括: (1) 研究背景和目的; (2)方法; (3) 主要结果; (4) 结论. 简明扼要不分段, 突出结论、成果.}
+
+\keywords{关键词1, 关键词2, 关键词3, 关键词4}
+
+\pacs{02.10.Yn, 33.15.Vb, 98.52.Cf, 78.47.dc}
+
+\cmail{hunch@mail2.sysu.edu.cn \quad 电话: 15920544949 \quad 学号：12309011}
+
+%\cmailddag{mail2}
+
+%\mail{}{}\cmail \cmailddag
+
+%\apscopyright \baselineskip=16.0pt plus.2pt minus.2pt
+%\begin{multicols}{2}\sec
+\section{引~~~~言}
+
+
+核磁共振（简称NMR）是指受电磁波作用的原子核系统在外磁场中磁能级之间发生共振跃迁的现象。
+其方法与技术作为分析物质的手段，由于其可深入
+物质内部而不破坏样品，并具有迅速、准确、分辨率高等优点
+而得以迅速发展和广泛应用，已经从物理学渗透到化学、生物、
+地质、医疗以及材料等学科，在科研和生产中发挥了巨大作用。
+核磁共振是1946年由美国斯坦福大学布洛赫(F.Block)和哈佛
+大学珀赛尔(E.M.Purc- ell)各自独立发现的，两人因此获得1952年
+诺贝尔物理学奖。50多年来，核磁共振已形成为一门有完整理论
+的新学科。核磁共振可采用稳态法和瞬态法两种不同的射频技术，
+本实验采用连续射频场作用于原子核系统，观测NMR的稳态吸收过程。
+
+\section{实验目的}
+\begin{enumerate}
+\item 了解核磁共振的基本原理;
+\item 利用核磁共振方法测量样品的磁旋比$\gamma$
+、朗德因子$g_N$，和原子核磁矩$\mu_I$;
+\item 了解利用核磁共振精确测量磁场强度的方法。
+\end{enumerate}
+
+\section{实验原理}
+\subsection{核磁矩与核自旋}
+原子核自旋和磁矩的概念是泡利（W.Pauli）于1924年为解释原子光谱的超精细结构而提出
+的。 核磁矩$\mu_I$和角动量$P_I$的关系为：
+\begin{equation}
+\mu_I=g_N\frac{e}{2m_N}P_I=g_N\mu_N\sqrt{I(I+1)},
+\end{equation}
+式中$g_N$为核朗德因子，是一个因核而异的常数，$m_N$为原子核质子的质量，
+$\mu_N=\frac{e\hbar}{2m_N}$称为核磁子。取$\gamma=\frac{e}{2m_N}g_N$为核的旋磁比，则
+$\mu_N=\gamma P_I$。可用旋磁比$\gamma$表示核朗德因子$g_N$为
+\begin{equation}
+g_N=\frac{\hbar\gamma}{\mu_N}.
+\end{equation}
+\par 
+根据量子物理原理，在外磁场$B$中原子核角动量所对应的原子总磁矩$\mu_I$，与磁场$B$的相
+互作用能量为
+\begin{equation}
+E=-\mu_I B=-\gamma m_I\hbar B=g_Nm_I\mu_N B
+\end{equation}
+式中磁量子数$m_I=I,I-1,\ldots,-I$，这意味着具有量子数$I$精细结构中的各能级在外磁场$B$
+中将进一步分裂为$(2I+1)$个塞曼能级，两相邻能级之间的能量差
+\begin{equation}
+\Delta E = g_N\mu_N B.
+\end{equation} \par 
+    若在垂直于产生塞曼分裂的外磁场$B$的方向施加一频率为$\nu$的交变电磁场，当$\nu$和$B$之
+间满足
+\begin{equation}
+h\nu=\Delta E = g_N\mu_N B,\label{eq:2-3-6}
+\end{equation}
+则原子中电子吸收能量$h\nu$。从塞曼分裂的低能级跃迁到高能级，即核磁共振跃迁。显然，塞曼
+能级间隔正比于外磁场$B$,在通常实验环境中，相邻塞曼能级间隔很小，从而共振跃迁所吸收
+或发射的量子能量处于比光频小得多的射频辐射量子$h\nu$的能量范围。由于核磁矩比电子磁
+矩小约三个数量级，目前在实验室仍难以实现微波频段的核磁共振观测。\par
+    在热平衡时，粒子布居数服从玻尔兹曼统计规律，处于能级$E_2$与$E_1$的粒子数$N_2$与$N_1$
+之比为
+\begin{equation}
+\frac{N_2}{N_1} = \exp \left[-\frac{E_2-E_1}{kT} \right]= \exp\left[-\frac{\Delta E}{kT} \right].
+\end{equation}
+常温下$E_1-E_2\ll kT$，对于两个相邻塞曼能级，近似有
+\begin{equation}
+\frac{N_2}{N_1} = 1-\frac{\Delta E}{kT}=1-\frac{g_N\mu_IB}{kT},\label{eq:2-3-8}
+\end{equation}
+上式中，$k$为玻尔兹曼常数，$T$为绝对温度。显然，由于$\Delta E \ll kT$，
+故式~\eqref{eq:2-3-8}的数值接近
+于1。尽管能级问粒子数差$\Delta N = N_1-N_2 = N_1\Delta E/kT$很小从而使得核磁共振信号很微弱，
+但却是它提供了观测核磁共振的可能性。从上述分析可知，磁场$B$越强，温度$T$越低，则布居
+数差越大，磁共振信号越强。\par 
+    与电子自旋共振情形相似，磁共振吸收将使高底能级上粒子数趋于相等而离开平衡状
+态，由于相互作用，处于高能态的粒子经过一段时间之后将返回低能态，使能级上粒子分布
+又恢复到原来的平衡态，这个过程称为弛豫过程，它所经历的时间称为弛豫时间。由于弛豫
+过程，受激离开平衡态粒子将通过能量交换回到平衡态为下一次的磁共振吸收做好准备，从
+而周期性共振激发使我们可以观测到稳定的核磁共振信号。\par 
+    吸收信号与核自旋系统的弛豫过程有关。自旋一品格弛豫使核能级谱线具有一定宽度，
+自旋一自旋弛豫致使满足共振条件的外磁场$B$并非单一值，
+两者的作用使满足共振条件~\eqref{eq:2-3-6}的外磁场B具有一定的展宽。\par 
+
+\section{实验装置及操作}
+    本实验装置如图~\ref{fig:2-3-1}所示。它由电磁铁及其电流源、扫场线圈及其电源、边限振荡
+器、探头(包括样品)、(数字)频率计一数器、特斯拉计(或高斯计)和双通道示波器(或汁
+算机数据采集系统)等组成。
+\begin{figure}
+\centering
+\includegraphics[width=.8\textwidth]{fig2-3-1}
+\caption{核磁共振吸收实验装置框图}
+\label{fig:2-3-1}
+\centerline{\parbox[c]{13cm}{Fig 1. Block diagram of experimental device for nuclear magnetic resonance absorption.}}
+\vskip 6mm
+\end{figure}
+以下介绍实验装置的主要部分。\par
+1.稳恒磁场由电磁铁及其电流源组成，
+它提供产生能级塞曼分裂的稳恒外磁场$B$。调
+节稳流电源改变通过电磁铁线圈的励磁电流即改变外磁场$B$
+的强度，磁极中心区域可视为均匀磁场。\par 
+2.扫场(或扫描磁场)产生一较弱的调制磁场(通常为$50Hz$)
+叠加在主磁场上，使
+作用于样品的外磁场周期性变化，即磁场扫描。每当总磁场扫过磁共振点时
+吸收，在示波器上可观测到一个吸收峰。由于采用$50Hz$的交变信号扫描，
+，样品发生共振
+通过共振区所用
+的时间并不比弛豫时间长很多，所以共振信号会有尾波。\par 
+    3.  NMR探头它包括边限振荡器、高频放大器、
+边限振荡器的振荡线圈内，
+线圈轴线与外磁场方一向正交。
+检波和低频放大器等，样品放置在
+当边限振荡器起振后，振荡线圈内
+产生等幅振荡的射频场作用于
+降，导致振荡变弱振幅减小，
+样品。发生共振时，样品吸收射频场能量使得回路的 Q值下
+即射频振荡受到共振吸收的调制。被调制的射频信号，经检波
+和滤波后便得到NMR吸收信号。射频信号通过高频放大，
+由频率计测量其频率。从上分析
+可知，NMR探头系统兼有射频发射和共振信号吸收双重功能。
+\begin{figure}
+\centering
+\includegraphics[width=.6\textwidth]{fig2-3-2}
+\caption{核磁共振磁场电源前面板示意图}
+\label{fig:2-3-2}
+\centerline{\parbox[c]{8cm}{Fig 2. NMR magnetic field power front panel diagram.}}
+\vskip 6mm
+\end{figure}    
+核磁共振磁场电源前面板如图~\ref{fig:2-3-2}
+所示。“直流输出”提供稳恒磁场所需的励磁电
+流，通过“直流调节”旋钮改变磁场强度。“粗调”用于搜索NMR信号，
+号处于选定的观测点。“扫场输出”为$50Hz$的正弦波驱动扫场线选圈，
+“细调”使共振信其幅度由“扫场调节”旋钮改变。\par
+    选定射频场频率$\nu$，通过改变外磁场$B$使满足式~\eqref{eq:2-3-6}获得磁共振信号，称为扫场
+法;设定的外磁场$B$,通过改变射频场频率$\nu$获得磁共振信号，则为扫频法。为便于操作，本
+实验建议采用扫场法，且采用正弦波扫场进行实验观测。
+通常采用双通道示波器(或计算机
+数据采集系统):一个通道观测扫场信号;另一个通道观测磁共振信号。\par 
+    主磁场(即稳恒磁场)与扫场(或扫描磁场)叠加使作用于样品的总外磁场产生周期性
+变化，通常采用固定扫场强度的方法。若改变稳恒磁场，使总磁场峰位到达共振点，扫场每
+周期产生一次共振吸收信号，且处于正弦波扫场的波峰;若使总磁场谷位满足共振，则扫场
+每周期一次的共振吸收信号产生于正弦波扫场的波谷处。当共振点处于波峰与波谷之间时，
+磁场侮周期将有两次扫过满足式~\eqref{eq:2-3-6}的共振点，从而可观测到两个NMR吸收信号
+(每周期)。进一步微调稳恒磁场，可观测到吸收信号的相对位移，吸收峰的间距相应地发生
+变化。当吸收峰等间距时，核磁共振发生在正弦波扫场过零点。此时，稳恒磁场即为共振磁
+场。在磁共振实验教学中，常采用吸收峰等间距方法观测。
+	
+\subsection{实验内容与分析}
+    了解实验装置和测量用仪器的使用操作，懂得调节稳恒磁场、扫场、射频场和测定边限
+振荡器的工作频率。振荡器输出经检波和低放后的信号接示波器CH2，扫场信号的分压经
+相移器后输人示波器CH1并起同步触发作用。启动实验装置和仪器，设备进人工作状态即
+可进行以下的实验测量。\par 
+    (一)观测$^1H$核的旋磁比$\gamma$、朗德因子$g_N$和磁矩$\mu_I$\par 
+    (1)将装有$^1H$核样品的玻璃管插人振荡线圈中并放置在电磁铁的中心位置，使振荡线
+圈轴线与稳恒磁场方向相互垂直。\par 
+    (2)调节适当的扫场强度，缓慢调节稳恒磁场的励磁电流，搜索NMR信号。\par 
+    (3)改变射频场强度，观察记录吸收信号幅度的变化;改变扫场强度，观察记录吸收信
+号幅度的变化;改变样品在磁场中位置，观察记录磁场均匀度对吸收信号波形的影响。找出
+最佳的实验观测条件，并采用吸收峰等间距方法观测共振吸收信号。\par 
+    (4)由数字频率计测量射频场频率:，用高斯计测量样品所在处的稳恒磁场强度$B$。\par 
+    (5)由所测得数据，求出$^1H$核的旋磁比$\gamma$，朗德因子$g_N$和磁矩$\mu_I$。\par 
+    (6)测量多组$(\nu,B)$，采用简单的平均方法或直线拟合方法，分析实验测量值及其误
+差，并分析误差原因。\par 
+    (二)采用比较法测量$^{19}F$核的旋磁比$\gamma$
+    若无法精确测量稳恒磁场时，可利用某已知原子核旋磁比$\gamma$样品，通过比较法测定未知
+原子核的旋磁比了。\par
+    (1)测量已知旋磁比$\gamma$的iH核的共振频率$\nu_H$;\par
+    (2)不改变磁场强度，更换待测样品($^{19}F$核)，采用扫频法测量共振频率$\nu_F$;\par
+    (3)由上实验数据可求得$^{19}F$核的旋磁比$\gamma$。\par
+    %请学生自己拟定实验方案，完成实验测量并进行数据分析处理。
+\section{实验数据分析}
+\subsection{观测$^1H$核的旋磁比$\gamma$、朗德因子$g_N$和磁矩$\mu_I$}
+\begin{figure}[t]
+\centering
+\includegraphics{h+}
+\caption{实验所用样品。从右到左一次为a,b,c,d。}
+\label{fig:sam}
+\centerline{\parbox[c]{13cm}{Fig 3. Samples from the laboratory, referred as a,b,c,d from right to left in the 
+following.}}
+\vskip 6mm
+\end{figure}
+实验时为了测量多组数据，我们采用了样品为浓度略有差别的硫酸铜水溶液和水，沿浓度降低顺序依次编号为a,b,c,d，
+并在后面对不同浓度的样品尾波进行讨论。以下所有实验数据标准值均采用\textit{Wiki}百科。
+实验过程保持磁体周围环境温度稳定，有
+助于减少共振信号漂移，从而可获得较准确的实验数据。\par
+实验时施加适当扫场励磁电流，通过边限振荡器“频率调节”的“粗调”和“细调”旋钮改变射频线圈振
+荡频率，直至出现核磁共振吸收信号。此时反复调节扫场励磁电流和射频线圈振荡频率至每扫场周
+期出现2次共振吸收信号。微调励磁电流和振荡器频率，使共振信号幅值最大且信号等间距，再微调
+样品在磁场中的位置和方位，使信号相对于基线上下近乎对称。记录射频场频率，并用高斯计正反两次测量
+样品所在处磁场强度如表~\ref{tab:1}。
+\begin{table}[h!]
+\caption{核磁共振不同浓度样品的$^1H$核数据}
+\label{tab:1}
+\centerline{\parbox[c]{12cm}{Table 1. Nuclear magnetic resonance data of different concentration $^1H$ samples.}}
+\vskip 6mm
+\centering
+\begin{tabular}{c c c c c} 
+ \hline
+  & $\nu$/MHz & B/T & B/T & $\gamma$/MHz/T\\ 
+ \hline
+ a & 19.910 & +0.357 & -0.342 & 357.935\\ 
+ \hline
+ b & 19.910 & +0.352 & -0.343 & 359.995\\
+ \hline
+ c & 19.913 & +0.304 & -0.300 & 414.295\\
+ \hline
+ d & 19.910 & +0.349 & -0.339 & 363.258\\
+ \hline
+\end{tabular}
+\end{table}
+\par 
+利用公式
+\begin{equation}
+\gamma = \frac{2\pi \mu}{B}
+\end{equation}
+我们可以得到所求的$^1H$核旋磁比，如表~\ref{tab:1}最后一列。注意到通常资料中出现的$^1H$核的旋磁比实际为
+$267.513MHz/T$，与我们的实验数值有较大差异。经过和不同小组的同学讨论，我们认为主要原因是高斯计测量的磁
+场与实际数值有比较大的出入，因为样品所在处有铁管包覆，磁场会显著强于测量数值。经询问老师知道
+所用仪器的磁场实际数值约为$0.47T$，带入前面的频率数据可以算得正确的平均旋磁比为
+\begin{equation}
+\bar{\gamma}=266.176MHz/T,
+\end{equation}
+与标准值的相对误差为$\delta=0.5\%$。\par
+又由于核磁子为
+\begin{equation}
+\mu_N=\frac{e\hbar}{2m_p}=5.051\times10^{-27}J/T,
+\end{equation}
+可以算得$^1H$核的朗德$g$因子
+\begin{equation}
+g_N=\frac{\hbar \gamma}{\mu_N}=5.557,
+\end{equation}
+而真实的质子的朗德$g$因子为$5.585$，即相对误差为$\delta=4.5\%$。另一方面，也可计算氢核的磁矩
+\begin{equation}
+\mu_I=\gamma P_I=\gamma\sqrt{I(I+1)}\hbar=2.49\times10^{-25}J/T.
+\end{equation}
+
+\subsection{稳恒磁场对共振信号的影响}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=.8\textwidth]{89e}
+\caption{均匀磁场共振图}
+\label{fig:middle}
+\centerline{\parbox[c]{8cm}{Fig 4. Resonance shape for a uniform magnetic field.}}
+\end{figure}
+\begin{figure}[h!]
+\begin{subfigure}{0.50\textwidth}
+\includegraphics[width=\linewidth]{89f} 
+\caption{样品右移共振信号}
+\label{fig:89f}
+\end{subfigure}
+\begin{subfigure}{0.50\textwidth}
+\includegraphics[width=\linewidth]{89g}
+\caption{样品左移共振信号}
+\label{fig:89g}
+\end{subfigure}
+\begin{subfigure}{0.50\textwidth}
+\includegraphics[width=\linewidth]{89h} 
+\caption{样品后移共振信号}
+\label{fig:89h}
+\end{subfigure}
+\begin{subfigure}{0.50\textwidth}
+\includegraphics[width=\linewidth]{89i}
+\caption{样品前移共振信号}
+\label{fig:89i}
+\end{subfigure}
+\begin{subfigure}{0.50\textwidth}
+\includegraphics[width=\linewidth]{89j} 
+\caption{样品上移共振信号}
+\label{fig:89j}
+\end{subfigure}
+\begin{subfigure}{0.50\textwidth}
+\includegraphics[width=\linewidth]{89k}
+\caption{样品下移共振信号}
+\label{fig:89k}
+\end{subfigure}
+\caption{不同磁场条件的核磁共振现象}\label{fig:89col}
+\centerline{\parbox[c]{8.4cm}{Fig 5. Resonance shape for a variety of magnetic fields.}}
+\end{figure}
+选定其中一个样品，改变样品在磁场中的位置，观察吸收信号的变化。首先将样品置于磁场相对比较均匀的部分，
+测量图形如图~\ref{fig:middle}。接下来所有的移动均为相对此图位置的移动。\par 
+下面我们沿空间六个方向做些许移动，并得到图~\ref{fig:89col}。
+注意到破坏磁场均匀性时，几种移动方式中每幅图都会出现的现象是相邻的峰的间距会不等；同时由于
+磁场实际上由近似轴对称线圈产生，在移动时有一定的空间对称性，因而在几幅图上波形有类似扭曲行为。
+在偏离磁场中心时（此时磁场为不均匀磁场）共振信号峰谷值相差较大，且偏离磁场中心越远则共振信
+号畸变越大。理论上，外磁场空间分布的均匀性与否对共振信号的质量影响极大，若磁场不均匀，将会
+使共振谱线产生附加展宽，一般来说，当磁场的不均匀性大于$10^{-4}$时，共振信号会因磁场非均匀
+展宽而严重变小，甚至消失．因此，要想观察到清晰的核磁共振信号，磁场在样品范围内应高度均匀．
+原因之一是核磁共振信号由共振吸收的频率条件$h\nu=g_N\mu_NB$ 决定，如果磁场不均匀，则样品内
+各部分的共振频率不相等，对于偏离$\nu$的原子核则不能参与共振，使得参与共振的原子核数目不足，
+结果是信号被噪声所淹没，难以观察到核磁共振信号。我们下面会给出关于磁场不均匀度的定量讨论。
+
+\subsection{基于尾波的讨论}
+由于我们选取了几种不同的样品进行了实验，我们用数字示波器提取了实验数据。在下面这节中我们对尾波
+进行一定的定量讨论，并分析其与样品浓度的依赖关系。\par
+在核磁共振实验中，若把使样品产生能级分裂的恒磁场$B_0$的指向设为$z$方向，平衡时样品的宏观磁化
+强度$M$(即单位体积内所有微观磁矩的矢量和)也必然指向$z$方向。兼具共振信号探测器和射频磁场$B_1$发
+生器的线圈，其轴线方向取为$x$方向。在平衡状态时，样品的磁化强度$M$只有$z$分量$M_0$，其在$xy$
+平面上的分量$M_{xy}$为$0$。磁化强度$M$在射频磁场$B_1$的作用下产生偏转时，其与$z$方向的夹角变
+为$\theta$，$xy$平面分量$M_{xy}$不再为零，同时，$M$在外磁场$B$的作用下绕$z$轴做拉莫进动。样品发
+生核磁共振的条件是其旋进频率$\omega$满足$\omega=\omega_0=\gamma B$，式中$\omega_0$为射频场的角
+频率。也就是说，共振时$M$将以角频率$\omega_0$绕$B$进动。$M_{xy}$切割探测线圈产生的感生电动势的
+角频率也为$\omega_0$。但在远离共振时，$M$的旋进角频率$\omega$将与$\omega_0$不同，探测线圈中产生
+的感生电动势将与线圈中的射频信号产生频差，此时线圈中的信号$V(t)$可以用以下公式来描述：
+\begin{equation}
+V(t)=V(0)\exp(-\frac{t}{\tau})\cos[(\omega_0-\omega)t+\phi],
+\end{equation}
+其中，$V(0)$为共振时的信号强度，它与共振时的$M_{xy}$大小成正比，当$M_0=M_{xy}$时，$V(0)$最大，
+这实际上就是脉冲核磁共振中$90^{\circ}$脉冲的作用结果。$\tau$为弛豫时间，实际上弛豫因涉及磁化强度
+的纵向和横向分量, 因而可分为纵向弛豫和横向弛豫，纵向弛豫起因于自旋-晶格之间的相互作用，纵向弛豫时间
+$T_1$反映自旋系统粒子数差从非平衡态恢复到平衡态的特征时间常数，$T_1$越短表明自旋-晶格相互作用越强。
+横向弛豫$T_2$源于自旋-自旋之间的相互作用，横向弛豫时间表征了由于非平衡态进动相位相关产生的不为零的
+磁化强度横向分量恢复到平衡态时相位无关的特征时间常数。前述的$\tau$由样品的横向弛豫时间$T_2$
+和外磁场的非均匀度$B^*$决定\cite{wiki}：
+\begin{equation}
+\frac{1}{\tau}=\frac{1}{T_2}+\frac{\gamma B^*}{2}.\label{eq:bstar}
+\end{equation}
+\par 由此可见，示波器上显示的信号应该是指数与正弦信号的叠加，如图~\ref{fig:sam}所示。
+\begin{figure}[h!]
+\begin{subfigure}{0.50\textwidth}
+\includegraphics[width=\linewidth]{89a} 
+\caption{样品a的共振信号}
+\label{fig:89a}
+\end{subfigure}
+\begin{subfigure}{0.50\textwidth}
+\includegraphics[width=\linewidth]{89b}
+\caption{样品b的共振信号}
+\label{fig:89b}
+\end{subfigure}
+\begin{subfigure}{0.50\textwidth}
+\includegraphics[width=\linewidth]{89c} 
+\caption{样品c的共振信号}
+\label{fig:89c}
+\end{subfigure}
+\begin{subfigure}{0.50\textwidth}
+\includegraphics[width=\linewidth]{89d}
+\caption{样品d的共振信号}
+\label{fig:89d}
+\end{subfigure}
+\caption{不同样品核磁共振现象}\label{fig:sam}
+\centerline{\parbox[c]{7.6cm}{Fig 6. Resonance shape for a variety of samples.}}
+\end{figure}
+由图形可知，样品浓度对共振信号的影响主要是弛豫时间的不同。由于所有的样品浓度未知（但知道其浓度
+顺序），故只能作定性比较，即弛豫时间随溶液浓度的增大而减小。其中物理机制可如下理解，核磁弛豫过
+程是自旋核与环境以及自旋核之间通过相互作用进行能量交换的过程．涉及原子核的偶极-偶极相互作用、自
+旋-旋转相互作用、化学位移各向异性相互作用、电四极矩相互作用以及标量耦合作用等诸多方面。在溶液中
+，氢原子核的环境中（通称“晶格”）水中的氧原子的质量都远大于氢原子。溶液中等量的氢原子周围平均含
+有的晶格杂质越多，质量越大，能量交换就越快，弛豫时间也越短．因此随着溶液浓度的增大，弛豫时间呈
+现减小的趋势。而在纯水的情况下，弛豫时间长于系统可观测范围，导致不同周期的衰减图形叠加，因而得
+到如图~\ref{fig:89d}的情形。\par
+下面我们选取两幅比较理想的吸收曲线进行讨论。我们选取图~\ref{fig:89b}和~\ref{fig:89c}的吸
+收曲线，拾取曲线的峰值作指数函数拟合，我们可以得到如图~\ref{fig:t2}所示结果。
+\begin{figure}[t]
+\begin{subfigure}{0.50\textwidth}
+\includegraphics[width=\linewidth]{89bexp}
+\caption{样品b共振信号中的指数部分，$\tau\approx 0.31ms$.}
+\label{fig:t21}
+\end{subfigure}
+\begin{subfigure}{0.50\textwidth}
+\includegraphics[width=\linewidth]{89cexp}
+\caption{样品c共振信号中的指数部分，$\tau\approx 0.66ms$.}
+\label{fig:t21}
+\end{subfigure}
+\caption{不同浓度样品弛豫时间比较}\label{fig:t2}
+\centerline{\parbox[c]{11cm}{Fig 7. Comparison of relaxation time of different concentration samples.}}
+\vskip 6mm
+\end{figure}
+比较两样品横向弛豫时间可知浓度大的样品弛豫时间比浓度小的样品知，此结果可以定性地认为与前面的理论
+分析一致。\par 另一方面，查阅资料知道质子的横向弛豫时间一般在$0.1s$的数量级，而我们的数据相
+比起来小了3个数量级，由公式~\eqref{eq:bstar}知道这是由于磁场不均匀引起的。可以用样品c的弛豫时
+间估计磁场不均匀度为
+\begin{equation}
+\frac{B^*}{B}\approx\frac{2}{\gamma \tau B} = 5.157\times 10^{-5}.
+\end{equation}
+可见，磁场不均匀对弛豫时间影响非常大，而一般说来磁场的均匀度越高，系统弛豫时间越长，而所得到的尾
+波也越多。因此实验过程中，我们观测吸收图像调节探头位置时，应尽量选择尾波长的位置。
+
+\subsection{核磁共振信号与扫场强度}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=.8\textwidth]{mfields}
+\caption{扫场与共振关系图}
+\label{fig:mfi}
+\centerline{\parbox[c]{9cm}{Fig 8. Scanning field and nuclear magnetic resonance signals.}}
+\vskip 6mm
+\end{figure}
+图~\ref{fig:mfi}给出了扫场频率为$50Hz$时，外磁场随时间的变化及相应的共振信号的关系。从图中可知道，
+旋磁场场强的变化范围是$B =B_0\pm B'$，要注意，实际扫场的振幅是很小的，即共振所需磁场强度$B$和恒定磁场$B_0$
+相差很小。可能发生共振的频率调整好之后，调节扫场幅度就能在示波器上观察到共振信号。这时的共振信号的间隔很可能
+是不等的，比如图~\ref{fig:mfi}所示，其共振信号发生在虚线$ a $与$ B $的相交处。如果继续调整扫场幅度，使得
+共振信号的排列近似等间距，即共振点在扫场的过零处，即图中的虚线$ b$，可以得到幅值最大的共振信号。以下讨论将
+主要基于此种理解。\par
+由于实验中恒定磁场$B_0$实际上固定不能调节，而根据下面的现象我们可以推断通过改变其在磁场中的位置几乎不可能
+使其数值并不恰好相等共振所需磁场。这样
+实验现象中实际不可能出现间距完全相等的信号峰。因此我们再次观察我们找到的最佳共振点，并对其做快速傅立叶变换(FFT)，得
+图~\ref{fig:best}。不难看出我们找到了相空间的一个点，信号分布具有相对较高的均匀性。
+\begin{figure}[t]
+\begin{subfigure}{0.50\textwidth}
+\includegraphics[width=\linewidth]{89e}
+\caption{最佳共振信号波形图}
+\label{fig:bestt}
+\end{subfigure}
+\begin{subfigure}{0.50\textwidth}
+\includegraphics[width=\linewidth]{89_0}
+\caption{最佳共振信号FFT频谱图}
+\label{fig:0fft}
+\end{subfigure}
+\caption{对最佳共振信号的进一步考察}\label{fig:best}
+\centerline{\parbox[c]{9cm}{Fig 9. Further investigation of the optimum resonance signal.}}
+\vskip 6mm
+\end{figure}
+\subsubsection{扫场增强}
+我们从某一固定点开始缓慢增强扫场幅度，并记录几组数据。按照从下到上扫场幅度依次增大的顺序作图~\ref{fig:89l}。
+\begin{figure}[h!]
+\centering
+\includegraphics[width=\textwidth]{89l}
+\caption{扫场强度增强时共振信号的变化}
+\label{fig:89l}
+\centerline{\parbox[c]{11cm}{Fig 10. Change of resonance signals with scanning field varies intensity.}}
+\vskip 6mm
+\end{figure}
+这里为了便于清晰地同时显示多组实验数据，对几组不同实验条件的振荡器输出信号都作了零点平移处理。另外最上面一条信号
+输出的相位与其他几组略有不同。但仍然可以容易看出，随着磁场的增强，信号的位置并不发生改变。这与我们前面的分析是相
+符的：相差很小的$B_0$和$B$在某一扫场强度下若近似出现均匀信号，则继续增大扫场幅度，信号位置必近似不改变，并且趋于
+更加均匀。但此时由于另外的波形干扰，我们不能从FFT频谱图中读到这一点。而``干扰信号''，即扫场信号越来越明显的``掩
+盖''共振信号，则可以在FFT频谱图上明显观察到，如图~\ref{fig:89_l0}。到第四条带时，扫场强度达到最大，几乎看不出共振信号。\par
+\begin{figure}[h!]
+\centering
+\includegraphics[width=.8\textwidth]{89_10}
+\caption{扫场强度最强时共振信号频谱图}
+\label{fig:89_l0}
+\centerline{\parbox[c]{12cm}{Fig 11. Resonance signal spectrum at the most intense scanning field strength.}}
+\vskip 6mm
+\end{figure}
+可以认为，共振信号基线完全由扫场强度和方向所决定。重新观察实验硬件结构可以发现，置于外磁场中
+射频线圈引线形成闭合回路，简谐变化的扫场必然在该回路产生同频简谐感生电动势。当扫场较小时，这种影响不体现在共振图形中，
+而当扫场比较大的增强时，就会影响共振图形的观察。在前一节中我们讨论弛豫时间时丢弃了图~\ref{fig:89a}的情况就是因为图中
+共振信号收到感生电动势的影响，尾波后面上升，导致不能准确对该情况拟合弛豫时间。
+
+\subsubsection{扫场减弱}
+下面我们考虑另外一种情况，即扫场强度减弱。这种情况也有有趣的现象发生，但是却很少有讨论。我们缓慢减弱扫场幅度，并记录几组数据。
+按照从下到上扫场幅度依次减弱的顺序作图~\ref{fig:89m}。由于起始强度比较高，这里同时显示了较多组实验数据。
+同前类似，我们也对输出信号都作了零点平移处理。而由于数据较多，图形的上有些噪声已经无法看到。\par 
+\begin{figure}[h!]
+\centering
+\includegraphics[width=\textwidth]{89m}
+\caption{扫场强度减弱时共振信号的变化}
+\label{fig:89m}
+\centerline{\parbox[c]{11.6cm}{Fig 12. Change of resonance signals with scanning field decreases intensity.}}
+\vskip 6mm
+\end{figure}
+不难看出，由下到上的过程中，与增强扫场不同，相邻的两个峰会发生融合，然后波形趋于平缓，最后近似变为直线。这个现象同样可以根据
+图~\ref{fig:mfi}解释。首先，相邻的峰随着扫场的减弱而靠近，这是由于$B_0$和$B$之间存在小差异，不妨假设$B_0<B$，
+随着$B'$减小，虚线$a$与扫场的交点从靠近平衡位置的地方向上移，相邻交点靠近。然后在$B'=B-B_0$时，两个峰合并成为一
+个峰，此时由于扫场相对较弱，波形上开始出现较多噪声。继续减小$B'$，则合成磁场与虚线$a$不再相交，
+可以看到此时波形降为只有噪声。从FFT得到的频谱图上则可以看出，这个过程频谱分布趋于频率降低的方向发展，如所期望。
+%======================================================================================================%
+\section{思考与讨论}
+\begin{enumerate}
+\item 观测NMR共振时需要提供哪几种磁场？它们各起什么作用？\par
+（1）稳恒磁场。稳恒磁场提供产生能级塞曼分裂的外磁场。稳恒磁场要求磁铁能够尽量产生强的、
+稳定均匀的磁场。强磁场有利于更好的观察核磁共振信号；磁场空间分布均匀性和稳定性越好则核
+磁共振实验仪的分辨率越高。\par
+（2）扫描磁场。扫描磁场产生一较弱的调制磁场叠加在主磁场上，使作用于样品的外磁场周期性变化，
+每当总磁场扫过磁共振点时，样品发生共振吸收，在示波器上可以观察到一个吸收峰。\par
+（3）射频场。边限振荡器产生的射频场作用于样品，当发生共振时，样品吸收射频场能量使得回路$Q$值下降，
+导致振荡变弱振幅变小，，即射频振荡受到共振吸收的调制。被调制的射频信号经检波滤波后，便得到NMR吸收信号。
+\item 扫场法与扫频法各有什么特点？本实验哪些观测过程使用扫频法？\par
+扫场法，即把射频场的频率固定，而让磁场连续变化，通过共振区域。扫场法简单易行，确定共振频率比较准确。扫频法，
+即让磁场固定，使射频场的频率连续变化，通过共振区域。本实验采用在寻找共振点的位置的时候采用的是扫频法。
+%\item 在示波器上看到共振吸收信号之后，如改变励磁电流，共振信号会在示波器上左右移动，为什么？如用永久磁铁做外
+%磁场，会不会有相同的情形？\par
+%\item 为什么把线圈L移到固定磁场的边缘时，观察不到共振信号呢？\par
+\end{enumerate}
+
+\section{结~~~~论}
+
+在研究结果与讨论的基础上总结出本研究得到的重要论点, 建议可包括以下内容:
+(1)解释结果; (2)将结果与之前提出的研究目的或假设相联系,阐明结果的重要性;
+(3)将结果与其他已有研究工作进行比较;
+(4)尽可能得出一个很清晰的结论. 对每一个结论需要总结证据.
+同时也可以指出本工作的不足和将要开展工作的展望.
+请注意不能简单重复摘要和引言.
+
+\section*{致谢}
+
+感谢中山大学物理学系李潮锐教授在实验过程中的指导和讨论。
+
+
+\bigskip
+%\begin{footnotesize}
+\begin{thebibliography}{999}%\refmark
+%\itemsep=-2pt plus.2pt minus.2pt
+\bibitem{wiki}Relaxation (NMR). Wikipedia[DB/OL]. \url{https://en.wikipedia.org/wiki/Relaxation_(NMR)}.
+%\bibitem{1} Chu S, Hollberg L, Bjorkholm J E, Cable A, Ashkin A 1985 {\it Phys. Rev. Lett.} {\bf 55} 48
+%\bibitem{2} Geng T, Yan S B, Wang Y H, Yang H J, Zhang T C, Wang J M 2005 {\it Acta
+%Phys. Sin.} {\bf 54} 5104 (in Chinese)
+%[耿涛, 闫树斌, 王彦华, 杨海菁, 张天才, 王军民 \ 2005 \ 物理学报 \ {\bf 54} 5104]
+%\bibitem{3} Wang Y H 2007 {\it Ph. D. Dissertation} (Taiyuan: Shanxi University) (in Chinese) [王彦华 \ 2007 \ 博士学位论文 (太原: 山西大学)]
+%\bibitem{4} Feng D, Jin G J 2003 {\it Condensed Matter Physics} (Vol. 1) (Beijing:
+%Higher Education Press) p341 (in Chinese) [冯端, 金国钧 \ 2003 \
+%凝聚态物理学 (上卷) (北京: 高等教育出版社) 第341页]
+%\bibitem{5} Tabbal A M, M\'{e}rel P, Chaker M 1999 {\it Proceedings of the 14th
+%International Symposium on Plasma Chemistry} Prague, Czech Republic, August
+%2--6, 1999 p1099
+%\bibitem{6} Plank C J U.S. Patent 4 081 490 [1978-02-15]
+%\bibitem{7} Eckertova  L (translated by Wang G Y) 1986 {\it Thin Film Physics}  (Beijing: Science Press) pp110--113 (in Chinese) [埃克托瓦L著 (王广阳译) \
+%1986 \ 薄膜物理学(北京: 科学出版社) 第110---113页]
+    %[译著] 原作者姓名 译者姓名(translated by) 出版年 译著名 (出版地城市名：出版商)起止页码
+
+\end{thebibliography} %\end{footnotesize}
+%\end{multicols}
+
+\newpage
+
+\title{English Title $^{\ast}$}%{\efundlink}
+
+\efund{Project supported by the State Key Development Program for Basic Research of China (Grant No. 2011CB00000), the National Natural Science Foundation of China (Grant Nos. 123456, 567890), and the National High Technology Research and Development Program of China (Grant No. 2011AA06Z000).}
+
+
+\author{Guan Yun-Chang$^{1)2)}$ \quad  Liu Bei$^{1)\dag}$ \quad  Zhuge Liang$^{2)}$}
+
+\email{aaa@bbb.ccc  \quad tel: 12345678901}
+%\email \emailddag
+
+
+\eaddress{1)}{State Key Laboratory of Quantum Optics and Quantum Optics  Devices,
+Institute of Opto-Electronics, Shanxi University, Taiyuan 030006, China}
+
+\eaddress{2)}{Department of Physics, Tsinghua University, Beijing 100084, China}
+
+\eabstract{To determine the probe made of amino acids arranged in a linear chain and joined together by peptide bonds between the carboxyl and amino groups of adjacent amino acid residues. The sequence of amino acids in a protein is defined by a gene and encoded in the genetic code. This can happen either
+before the protein is used in the cell, or as part of control mechanisms.}
+
+\ekeywords{Keyword1, Keyword2, Keyword3, Keyword4}
+
+\epacs{02.10.Yn, 33.15.Vb, 98.52.Cf, 78.47.dc}
+
+\end{document}
