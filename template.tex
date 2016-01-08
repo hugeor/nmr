@@ -24,14 +24,11 @@
 	citecolor={blue!50!black},
 	urlcolor={blue!80!black}
 }
+\usepackage{indentfirst}
+% \addbibresource{elex.bib}
 
-
-
-
-
-
-
-
+\setlength{\parindent}{22pt} 
+\setlength{\parskip}{.5em} 
 
 \begin{document}\apsname
 
@@ -43,7 +40,12 @@
 
 %\address{3)}{}
 
-\abstract{中文摘要. 300---400字,摘要中不用缩略词, 不用第一人称. 中英文摘要的结构建议包括: (1) 研究背景和目的; (2)方法; (3) 主要结果; (4) 结论. 简明扼要不分段, 突出结论、成果.}
+\abstract{在现代核磁共振实验中，通常采用低频扫场产生重复再现的共振吸收信号，并利用共振信号来对物质微观结构进行探索。
+本文以几种不同浓度的$CuSO_4$水溶液为例，比较准确的测量了$^1H$核的旋磁比$\gamma$，朗德因子$g_N$，和原子核磁矩$\mu_I$，并
+与标准值比较。我们也对共振信号和表征其特性的物理量受到不同实验条件的影响进行了一些定量的讨论，如外加磁场的不均匀度，共
+振中出现的尾波和弛豫时间受磁场的影响。最后我们探究了扫场的物理作用，以及不同的改变扫场的方式会对实验结果的影响。
+实验结果表明：核磁共振信号对磁场均匀的依赖非常强，计算可得约$10^{-5}$量级的相对不均匀度即可造成信号明显变化。而
+扫场作为一个改进实验方法的技巧，其强度实际上对核磁共振测量有着不可消除的影响，我们指出了减小这种影响的方法。}
 
 \keywords{核磁共振, 朗德因子, 弛豫时间, 扫场}
 
@@ -66,21 +68,16 @@
 而得以迅速发展和广泛应用，已经从物理学渗透到化学、生物、
 地质、医疗以及材料等学科，在科研和生产中发挥了巨大作用。
 核磁共振是1946年由美国斯坦福大学布洛赫(F.Block)和哈佛
-大学珀赛尔(E.M.Purc- ell)各自独立发现的，两人因此获得1952年
+大学珀赛尔(E.M.Purcell)各自独立发现的，两人因此获得1952年
 诺贝尔物理学奖。50多年来，核磁共振已形成为一门有完整理论
 的新学科。核磁共振可采用稳态法和瞬态法两种不同的射频技术，
 本实验采用连续射频场作用于原子核系统，观测NMR的稳态吸收过程。
 
-\section{实验目的}
-\begin{enumerate}
-\item 了解核磁共振的基本原理;
-\item 利用核磁共振方法测量样品的磁旋比$\gamma$
-、朗德因子$g_N$，和原子核磁矩$\mu_I$;
-\item 了解利用核磁共振精确测量磁场强度的方法。
-\end{enumerate}
+\par 进行这个实验的主要目的有: 1)了解核磁共振的基本原理; 2)利用核磁共振方法测量样品的磁旋比$\gamma$
+、朗德因子$g_N$，和原子核磁矩$\mu_I$; 3)了解利用核磁共振精确测量磁场强度的方法。
 
 \section{实验原理}
-\subsection{核磁矩与核自旋}
+%\subsection{核磁矩与核自旋}
 原子核自旋和磁矩的概念是泡利（W.Pauli）于1924年为解释原子光谱的超精细结构而提出
 的。 核磁矩$\mu_I$和角动量$P_I$的关系为：
 \begin{equation}
@@ -400,7 +397,8 @@ $T_1$反映自旋系统粒子数差从非平衡态恢复到平衡态的特征时间常数，$T_1$越短表明自旋
 有的晶格杂质越多，质量越大，能量交换就越快，弛豫时间也越短．因此随着溶液浓度的增大，弛豫时间呈
 现减小的趋势。而在纯水的情况下，弛豫时间长于系统可观测范围，导致不同周期的衰减图形叠加，因而得
 到如图~\ref{fig:89d}的情形。\par
-下面我们选取两幅比较理想的吸收曲线进行讨论。我们选取图~\ref{fig:89b}和~\ref{fig:89c}的吸
+下面我们选取两幅比较理想的吸收曲线进行讨论\footnote{丢弃图~\ref{fig:89a}的原因我们在下面一节具体讨论。}。
+我们选取图~\ref{fig:89b}和~\ref{fig:89c}的吸
 收曲线，拾取曲线的峰值作指数函数拟合，我们可以得到如图~\ref{fig:t2}所示结果。
 \begin{figure}[t]
 \begin{subfigure}{0.50\textwidth}
@@ -433,7 +431,7 @@ $T_1$反映自旋系统粒子数差从非平衡态恢复到平衡态的特征时间常数，$T_1$越短表明自旋
 \includegraphics[width=.8\textwidth]{mfields}
 \caption{扫场与共振关系图}
 \label{fig:mfi}
-\centerline{\parbox[c]{9cm}{Fig 8. Modulating magnetic field and nuclear magnetic resonance signals.}}
+\centerline{\parbox[c]{11cm}{Fig 8. Modulating magnetic field and nuclear magnetic resonance signals.}}
 \vskip 6mm
 \end{figure}
 图~\ref{fig:mfi}给出了扫场频率为$50Hz$时，外磁场随时间的变化及相应的共振信号的关系。从图中可知道，
@@ -468,7 +466,7 @@ $T_1$反映自旋系统粒子数差从非平衡态恢复到平衡态的特征时间常数，$T_1$越短表明自旋
 \includegraphics[width=\textwidth]{89l}
 \caption{扫场强度增强时共振信号的变化}
 \label{fig:89l}
-\centerline{\parbox[c]{11cm}{Fig 10. Change of resonance signals with modulating magnetic field varies intensity.}}
+\centerline{\parbox[c]{12.6cm}{Fig 10. Change of resonance signals with modulating magnetic field varies intensity.}}
 \vskip 6mm
 \end{figure}
 这里为了便于清晰地同时显示多组实验数据，对几组不同实验条件的振荡器输出信号都作了零点平移处理。另外最上面一条信号
@@ -481,13 +479,16 @@ $T_1$反映自旋系统粒子数差从非平衡态恢复到平衡态的特征时间常数，$T_1$越短表明自旋
 \includegraphics[width=.8\textwidth]{89_10}
 \caption{扫场强度最强时共振信号频谱图}
 \label{fig:89_l0}
-\centerline{\parbox[c]{12cm}{Fig 11. Resonance signal spectrum at the most intense modulating magnetic field strength.}}
+\centerline{\parbox[c]{14cm}{Fig 11. Resonance signal spectrum at the most intense modulating magnetic field strength.}}
 \vskip 6mm
 \end{figure}
 可以认为，共振信号基线完全由扫场强度和方向所决定。重新观察实验硬件结构可以发现，置于外磁场中
-射频线圈引线形成闭合回路，简谐变化的扫场必然在该回路产生同频简谐感生电动势。当扫场较小时，这种影响不体现在共振图形中，
+射频线圈引线形成闭合回路，简谐变化的扫场必然在该回路产生同频简谐感生电动势\cite{lcr}。
+当扫场较小时，这种影响不体现在共振图形中，
 而当扫场比较大的增强时，就会影响共振图形的观察。在前一节中我们讨论弛豫时间时丢弃了图~\ref{fig:89a}的情况就是因为图中
-共振信号收到感生电动势的影响，尾波后面上升，导致不能准确对该情况拟合弛豫时间。
+共振信号收到感生电动势的影响，尾波后面上升，导致不能准确对该情况拟合弛豫时间。\par 
+从这里我们可以看出，扫场作为一个实验技巧，对实验结果有很大的影响。尽量减小这种影响的方法是在明显不改变共振吸收信号
+的均匀分布的条件下，调小扫场强度，图~\ref{fig:89b}、~\ref{fig:89c}都是操作比较成功的例子。
 
 \subsubsection{扫场减弱}
 下面我们考虑另外一种情况，即扫场强度减弱。这种情况也有有趣的现象发生，但是却很少有讨论。我们缓慢减弱扫场幅度，并记录几组数据。
@@ -498,7 +499,7 @@ $T_1$反映自旋系统粒子数差从非平衡态恢复到平衡态的特征时间常数，$T_1$越短表明自旋
 \includegraphics[width=\textwidth]{89m}
 \caption{扫场强度减弱时共振信号的变化}
 \label{fig:89m}
-\centerline{\parbox[c]{11.6cm}{Fig 12. Change of resonance signals with modulating magnetic field decreases intensity.}}
+\centerline{\parbox[c]{13cm}{Fig 12. Change of resonance signals with modulating magnetic field decreases intensity.}}
 \vskip 6mm
 \end{figure}
 不难看出，由下到上的过程中，与增强扫场不同，相邻的两个峰会发生融合，然后波形趋于平缓，最后近似变为直线。这个现象同样可以根据
@@ -527,12 +528,13 @@ $T_1$反映自旋系统粒子数差从非平衡态恢复到平衡态的特征时间常数，$T_1$越短表明自旋
 
 \section{结~~~~论}
 
-在研究结果与讨论的基础上总结出本研究得到的重要论点, 建议可包括以下内容:
-(1)解释结果; (2)将结果与之前提出的研究目的或假设相联系,阐明结果的重要性;
-(3)将结果与其他已有研究工作进行比较;
-(4)尽可能得出一个很清晰的结论. 对每一个结论需要总结证据.
-同时也可以指出本工作的不足和将要开展工作的展望.
-请注意不能简单重复摘要和引言.
+本文以几种不同浓度的$CuSO_4$水溶液为例，比较准确的测量了$^1H$核的旋磁比$\gamma$，朗德因子$g_N$，和原子核磁矩$\mu_I$，
+并与通用标准值比较，计算测量的相对误差。然后我们对共振信号和表征其特性的物理量进行了一系列定量的讨论。我们通过改变外加磁
+场的不均匀性，观察共振信号对外磁场均匀度的依赖性。接下来在对共振中出现的尾波现象的讨论中，将尾波与原子核横向弛豫时间联系
+起来，通过计算定量描述了磁场不均匀度对共振信号的影响。最后我们探究了扫场的物理意义和对实验结果可能的影响。尝试增大和减小
+扫场幅度的方式来理解扫场对实验的意义。并在增加扫场较大时发现扫场实际会对实验结果造成一定影响，且这种影响本质上由实验设计
+引入，不可人为消除。实际上由电动力学的知识知道只要射频线圈引线回路面积不为零且扫场有效地穿越这一区域，实验测量信号必然不
+是单纯的核磁共振信号。我们指出了减小这种影响的方法。\par 
 
 \section*{致谢}
 
@@ -544,6 +546,7 @@ $T_1$反映自旋系统粒子数差从非平衡态恢复到平衡态的特征时间常数，$T_1$越短表明自旋
 \begin{thebibliography}{999}%\refmark
 %\itemsep=-2pt plus.2pt minus.2pt
 \bibitem{wiki}Relaxation (NMR). Wikipedia[DB/OL]. \url{https://en.wikipedia.org/wiki/Relaxation_(NMR)}.
+\bibitem{lcr}李潮锐. 扫场对核磁共振测量的影响[J]. 物理实验, (2015), 35(1), 1-4.
 %\bibitem{1} Chu S, Hollberg L, Bjorkholm J E, Cable A, Ashkin A 1985 {\it Phys. Rev. Lett.} {\bf 55} 48
 %\bibitem{2} Geng T, Yan S B, Wang Y H, Yang H J, Zhang T C, Wang J M 2005 {\it Acta
 %Phys. Sin.} {\bf 54} 5104 (in Chinese)
@@ -565,7 +568,7 @@ $T_1$反映自旋系统粒子数差从非平衡态恢复到平衡态的特征时间常数，$T_1$越短表明自旋
 
 \newpage
 
-\title{Steady-state absorption with nuclear magnetic resonance}%{\efundlink}
+\title{Steady-state nuclear magnetic resonance absorption}
 
 \author{HU Naichao$^{1)\dag}$ \quad  JIN Guliuxin$^{1)}$}
 
@@ -574,8 +577,20 @@ $T_1$反映自旋系统粒子数差从非平衡态恢复到平衡态的特征时间常数，$T_1$越短表明自旋
 
 \eaddress{1)}{Department of Physics, Sun Yat-sen University, Guangzhou 510275, China}
 
-\eabstract{To determine the probe made of amino acids arranged in a linear chain and joined together by peptide bonds between the carboxyl and amino groups of adjacent amino acid residues. The sequence of amino acids in a protein is defined by a gene and encoded in the genetic code. This can happen either
-before the protein is used in the cell, or as part of control mechanisms.}
+\eabstract{In modern nuclear magnetic resonance (NMR) experiments, one usually uses low frequency 
+modulating magnetic field to produce resonance absorption signal repeatedly, and 
+explores the substructure of matter with the resonant signal.
+In this paper, several different concentrations of $ CuSO_4 $ aqueous solution was used as samples. 
+We performed an accurate measurement of nuclear gyromagnetic ratio $ \gamma $ for the $ ^1H $ nuclei, 
+also the Lande factor $ g_N $, and nuclear magnetic moment $ \mu_I $. 
+We also studied resonance signal and attributed its physical characteristics under the influence of 
+different experimental conditions, followed by quantitative discussion. Specifically the irregularity of 
+extra magnetic field, the trailing wave and relaxation time if under the present of the overall magnetic field.
+Finally, we inquired the physical effect of the modulating magnetic field, as well as the effects of varies 
+ways of changing the sweeping field will result in.
+The results strongly indicated that: the NMR signal's dependence on a uniform magnetic field is extremely strong.
+It can be calculated that a relative irregularities of order $ 10 ^ {--5} $ can cause significant changes in 
+the signal shape. Sweeping a field, albeit an improvement of experimental methods, has suffered in fact indelible influence on the NMR measurements by its strength. We pointed out a way to mostly reduce this effect.}
 
 \ekeywords{nuclear magnetic resonance, the Lande factor, relaxation time, modulating magnetic field}
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2015.12.24)  8 JAN 2016 12:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2015.12.24)  8 JAN 2016 21:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -883,6 +883,9 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 26.
 
+(c:/texlive/2015/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
 (c:/texlive/2015/texmf-dist/tex/latex/cjk/texinput/extended.enc
 File: extended.enc 2015/04/18 4.8.4
 )
@@ -906,94 +909,94 @@ LaTeX Warning: Label `sub@fig:t21' multiply defined.
 )
 \openout1 = `template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 36.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 33.
  (c:/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 36.
+LaTeX Info: Redefining \selectfont on input line 33.
 
 (c:/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1062,7 +1065,7 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box78
-Package hyperref Info: Link coloring ON on input line 36.
+Package hyperref Info: Link coloring ON on input line 33.
 (c:/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -1071,116 +1074,106 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count183
 )
-LaTeX Info: Redefining \ref on input line 36.
-LaTeX Info: Redefining \pageref on input line 36.
-LaTeX Info: Redefining \nameref on input line 36.
+LaTeX Info: Redefining \ref on input line 33.
+LaTeX Info: Redefining \pageref on input line 33.
+LaTeX Info: Redefining \nameref on input line 33.
 
 (./template.out) (./template.out)
 \@outlinefile=\write3
 \openout3 = `template.out'.
 
-Package hyperref Info: Option `CJKbookmarks' set `false' on input line 36.
-LaTeX Font Info:    Try loading font information for C19+rm on input line 36.
+Package hyperref Info: Option `CJKbookmarks' set `false' on input line 33.
+LaTeX Font Info:    Try loading font information for C19+rm on input line 33.
 
 (c:/texlive/2015/texmf-dist/tex/latex/ctex/fd/c19rm.fd
 File: c19rm.fd 2015/05/15 v2.0.2 Chinese font definition (CTEX)
 )
 Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (
-quanjiao) on input line 36.
-LaTeX Font Info:    Try loading font information for C19+zhhei on input line 38
+quanjiao) on input line 33.
+LaTeX Font Info:    Try loading font information for C19+zhhei on input line 35
 .
 
 (c:/texlive/2015/texmf-dist/tex/latex/zhmetrics/c19zhhei.fd
 File: c19zhhei.fd 2009/09/23 4.8.2
 )
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 40
+LaTeX Font Info:    Calculating math sizes for size <10.5> on input line 37.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 37
 .
 
 (c:/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 40
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 37
 .
 
 (c:/texlive/2015/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 40
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 37
 .
 
 (c:/texlive/2015/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 40
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 37
 .
 
 (c:/texlive/2015/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 40.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 37.
 
 (c:/texlive/2015/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 
-LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <15.05624> not available
-(Font)              size <14.4> substituted on input line 40.
+LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <10.5> not available
+(Font)              size <10.95> substituted on input line 37.
 
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <15.05624> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12.045> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9.03374> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 37.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.77005> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 37.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6.30006> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 37.
 LaTeX Font Info:    Try loading font information for C19+zhsong on input line 4
-6.
+8.
 (c:/texlive/2015/texmf-dist/tex/latex/zhmetrics/c19zhsong.fd
 File: c19zhsong.fd 2009/09/23 4.8.2
 )
 Package CJKpunct Info: use punctuation spaces for family 'zhsong' with punctsty
-le (quanjiao) on input line 46.
-LaTeX Font Info:    Calculating math sizes for size <10.5> on input line 46.
+le (quanjiao) on input line 48.
+LaTeX Font Info:    Try loading font information for C19+hei on input line 50.
 
-
-LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 46.
-
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 46.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.77005> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 46.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6.30006> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 46.
-LaTeX Font Info:    Try loading font information for C19+hei on input line 48.
 (c:/texlive/2015/texmf-dist/tex/latex/zhmetrics/c19hei.fd
 File: c19hei.fd 2009/09/23 4.8.2
 )
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <7.52812> not available
-(Font)              size <8> substituted on input line 52.
+(Font)              size <8> substituted on input line 54.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.52812> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 52.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 54.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 52.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 54.
 
-Package hyperref Warning: Ignoring empty anchor on input line 52.
+Package hyperref Warning: Ignoring empty anchor on input line 54.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 52.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 54.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 52.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 54.
 
-Overfull \hbox (0.51663pt too wide) in paragraph at lines 52--52
+Overfull \hbox (0.51663pt too wide) in paragraph at lines 54--54
 []$[]$ 
  []
 
-LaTeX Font Info:    Try loading font information for C19+zhfs on input line 60.
+LaTeX Font Info:    Try loading font information for C19+zhfs on input line 62.
 
 (c:/texlive/2015/texmf-dist/tex/latex/zhmetrics/c19zhfs.fd
 File: c19zhfs.fd 2009/09/23 4.8.2
 )
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 77.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 75.
 
 (c:/texlive/2015/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
@@ -1193,86 +1186,103 @@ File: zhwindowsfonts.tex 2014/06/03 v2.0 Windows font map loader for pdfTeX and
  DVIPDFMx (CTEX)
 ) [1
 
-]
-
-Package mathptmx Warning: There are no bold math fonts on input line 83.
-
-[2] <images/fig2-3-1.png, id=154, 1132.23pt x 636.12656pt>
+] [2]
+<images/fig2-3-1.png, id=136, 1132.23pt x 636.12656pt>
 File: images/fig2-3-1.png Graphic file (type png)
 
 <use images/fig2-3-1.png>
-Package pdftex.def Info: images/fig2-3-1.png used on input line 144.
+Package pdftex.def Info: images/fig2-3-1.png used on input line 141.
 (pdftex.def)             Requested size: 375.80544pt x 211.13573pt.
  [3]
-<images/fig2-3-2.png, id=167, 1300.1072pt x 511.9125pt>
+<images/fig2-3-2.png, id=150, 1300.1072pt x 511.9125pt>
 File: images/fig2-3-2.png Graphic file (type png)
 
 <use images/fig2-3-2.png>
-Package pdftex.def Info: images/fig2-3-2.png used on input line 176.
+Package pdftex.def Info: images/fig2-3-2.png used on input line 173.
 (pdftex.def)             Requested size: 281.85587pt x 110.97295pt.
- [4 <./images/fig2-3-1.png>] [5 <./images/fig2-3-2.png>]
+ [4 <./images/fig2-3-1.png>]
+
+Package mathptmx Warning: There are no bold math fonts on input line 198.
+
+[5 <./images/fig2-3-2.png>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 225.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 222.
 Package CJKpunct Info: use punctuation spaces for family 'zhhei' with punctstyl
-e (quanjiao) on input line 225.
+e (quanjiao) on input line 222.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 225.
+(hyperref)                removing `math shift' on input line 222.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 225.
+(hyperref)                removing `superscript' on input line 222.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 225.
+(hyperref)                removing `math shift' on input line 222.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 225.
+(hyperref)                removing `math shift' on input line 222.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gamma' on input line 225.
+(hyperref)                removing `\gamma' on input line 222.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 225.
+(hyperref)                removing `math shift' on input line 222.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 225.
+(hyperref)                removing `math shift' on input line 222.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 225.
+(hyperref)                removing `subscript' on input line 222.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 225.
+(hyperref)                removing `math shift' on input line 222.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 225.
+(hyperref)                removing `math shift' on input line 222.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mu' on input line 225.
+(hyperref)                removing `\mu' on input line 222.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 225.
+(hyperref)                removing `subscript' on input line 222.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 225.
+(hyperref)                removing `math shift' on input line 222.
 
-<images/h+.png, id=186, 242.40562pt x 228.10219pt>
+<images/h+.png, id=170, 242.40562pt x 228.10219pt>
 File: images/h+.png Graphic file (type png)
  <use images/h+.png>
-Package pdftex.def Info: images/h+.png used on input line 228.
+Package pdftex.def Info: images/h+.png used on input line 225.
 (pdftex.def)             Requested size: 242.40501pt x 228.10161pt.
+
+Overfull \hbox (5.01247pt too wide) in paragraph at lines 232--235
+\C19/zhsong/m/n/10.5/60 S \C19/rm/m/n/10.5/61 ù \C19/rm/m/n/10.5/39 g \C19/rm/m
+/n/10.5/37 ? \C19/zhsong/m/n/10.5/43 “ \C19/rm/m/n/10.5/58 è\OT1/ptm/m/n/10.5 a
+,b,c,d|\C19/rm/m/n/10.5/26 ß| \C19/rm/m/n/10.5/37 ø \C19/rm/m/n/10.5/63 3 \C19/
+zhsong/m/n/10.5/44 ^^@ \C19/rm/m/n/10.5/50 ° \C19/rm/m/n/10.5/40 È \C19/rm/m/n/
+10.5/37 ÿ \C19/rm/m/n/10.5/57 ” \C19/zhsong/m/n/10.5/51 ﬂ \C19/rm/m/n/10.5/40 ›
+ ^^[ \C19/rm/m/n/10.5/61 ^^X \C19/rm/m/n/10.5/52 ¨ \C19/rm/m/n/10.5/58 ó \C19/r
+m/m/n/10.5/37 ≈ \C19/zhsong/m/n/10.5/46 ? \C19/zhsong/m/n/10.5/60 1 \C19/rm/m/n
+/10.5/57 ? \C19/zhsong/m/n/10.5/49 ÿ|\C19/zhsong/m/n/10.5/25 "| \C19/rm/m/n/10.
+5/61 ± \C19/rm/m/n/10.5/59 e \C19/rm/m/n/10.5/56 § \C19/rm/m/n/10.5/62 k \C19/r
+m/m/n/10.5/55 ¢ \C19/rm/m/n/10.5/61 ^^H \C19/rm/m/n/10.5/55 Í \C19/zhsong/m/n/1
+0.5/46 ‚ \C19/rm/m/n/10.5/37 I \C19/rm/m/n/10.5/65 O \C19/rm/m/n/10.5/64 ä \C19
+/zhsong/m/n/10.5/46 ˛ \C19/rm/m/n/10.5/37 Ê \C19/rm/m/n/10.5/62 ^\OT1/ptm/m/it/
+10.5 Wiki\C19/rm/m/n/10.5/36 z
+ []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1286,14 +1296,14 @@ Package epstopdf Info: Source file: <images/89e.eps>
 (epstopdf)                    size: 20299 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/89e-eps-converted-t
 o.pdf images/89e.eps>
-(epstopdf)             \includegraphics on input line 293.
+(epstopdf)             \includegraphics on input line 290.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/89e-eps-converted-to.pdf, id=207, 578.16pt x 433.62pt>
+<images/89e-eps-converted-to.pdf, id=194, 578.16pt x 433.62pt>
 File: images/89e-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/89e-eps-converted-to.pdf>
-Package pdftex.def Info: images/89e-eps-converted-to.pdf used on input line 293
+Package pdftex.def Info: images/89e-eps-converted-to.pdf used on input line 290
 .
 (pdftex.def)             Requested size: 375.80544pt x 281.84966pt.
 Package epstopdf Info: Source file: <images/89f.eps>
@@ -1304,14 +1314,14 @@ Package epstopdf Info: Source file: <images/89f.eps>
 (epstopdf)                    size: 21827 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/89f-eps-converted-t
 o.pdf images/89f.eps>
-(epstopdf)             \includegraphics on input line 300.
+(epstopdf)             \includegraphics on input line 297.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/89f-eps-converted-to.pdf, id=208, 578.16pt x 433.62pt>
+<images/89f-eps-converted-to.pdf, id=195, 578.16pt x 433.62pt>
 File: images/89f-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/89f-eps-converted-to.pdf>
-Package pdftex.def Info: images/89f-eps-converted-to.pdf used on input line 300
+Package pdftex.def Info: images/89f-eps-converted-to.pdf used on input line 297
 .
 (pdftex.def)             Requested size: 234.8775pt x 176.15768pt.
 Package epstopdf Info: Source file: <images/89g.eps>
@@ -1322,14 +1332,14 @@ Package epstopdf Info: Source file: <images/89g.eps>
 (epstopdf)                    size: 21624 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/89g-eps-converted-t
 o.pdf images/89g.eps>
-(epstopdf)             \includegraphics on input line 305.
+(epstopdf)             \includegraphics on input line 302.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/89g-eps-converted-to.pdf, id=209, 578.16pt x 433.62pt>
+<images/89g-eps-converted-to.pdf, id=196, 578.16pt x 433.62pt>
 File: images/89g-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/89g-eps-converted-to.pdf>
-Package pdftex.def Info: images/89g-eps-converted-to.pdf used on input line 305
+Package pdftex.def Info: images/89g-eps-converted-to.pdf used on input line 302
 .
 (pdftex.def)             Requested size: 234.8775pt x 176.15768pt.
 Package epstopdf Info: Source file: <images/89h.eps>
@@ -1340,14 +1350,14 @@ Package epstopdf Info: Source file: <images/89h.eps>
 (epstopdf)                    size: 20475 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/89h-eps-converted-t
 o.pdf images/89h.eps>
-(epstopdf)             \includegraphics on input line 310.
+(epstopdf)             \includegraphics on input line 307.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/89h-eps-converted-to.pdf, id=210, 578.16pt x 433.62pt>
+<images/89h-eps-converted-to.pdf, id=197, 578.16pt x 433.62pt>
 File: images/89h-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/89h-eps-converted-to.pdf>
-Package pdftex.def Info: images/89h-eps-converted-to.pdf used on input line 310
+Package pdftex.def Info: images/89h-eps-converted-to.pdf used on input line 307
 .
 (pdftex.def)             Requested size: 234.8775pt x 176.15768pt.
 Package epstopdf Info: Source file: <images/89i.eps>
@@ -1358,14 +1368,14 @@ Package epstopdf Info: Source file: <images/89i.eps>
 (epstopdf)                    size: 20497 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/89i-eps-converted-t
 o.pdf images/89i.eps>
-(epstopdf)             \includegraphics on input line 315.
+(epstopdf)             \includegraphics on input line 312.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/89i-eps-converted-to.pdf, id=211, 578.16pt x 433.62pt>
+<images/89i-eps-converted-to.pdf, id=198, 578.16pt x 433.62pt>
 File: images/89i-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/89i-eps-converted-to.pdf>
-Package pdftex.def Info: images/89i-eps-converted-to.pdf used on input line 315
+Package pdftex.def Info: images/89i-eps-converted-to.pdf used on input line 312
 .
 (pdftex.def)             Requested size: 234.8775pt x 176.15768pt.
 Package epstopdf Info: Source file: <images/89j.eps>
@@ -1376,14 +1386,14 @@ Package epstopdf Info: Source file: <images/89j.eps>
 (epstopdf)                    size: 20568 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/89j-eps-converted-t
 o.pdf images/89j.eps>
-(epstopdf)             \includegraphics on input line 320.
+(epstopdf)             \includegraphics on input line 317.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/89j-eps-converted-to.pdf, id=212, 578.16pt x 433.62pt>
+<images/89j-eps-converted-to.pdf, id=199, 578.16pt x 433.62pt>
 File: images/89j-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/89j-eps-converted-to.pdf>
-Package pdftex.def Info: images/89j-eps-converted-to.pdf used on input line 320
+Package pdftex.def Info: images/89j-eps-converted-to.pdf used on input line 317
 .
 (pdftex.def)             Requested size: 234.8775pt x 176.15768pt.
 Package epstopdf Info: Source file: <images/89k.eps>
@@ -1394,28 +1404,28 @@ Package epstopdf Info: Source file: <images/89k.eps>
 (epstopdf)                    size: 20483 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/89k-eps-converted-t
 o.pdf images/89k.eps>
-(epstopdf)             \includegraphics on input line 325.
+(epstopdf)             \includegraphics on input line 322.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/89k-eps-converted-to.pdf, id=213, 578.16pt x 433.62pt>
+<images/89k-eps-converted-to.pdf, id=200, 578.16pt x 433.62pt>
 File: images/89k-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/89k-eps-converted-to.pdf>
-Package pdftex.def Info: images/89k-eps-converted-to.pdf used on input line 325
+Package pdftex.def Info: images/89k-eps-converted-to.pdf used on input line 322
 .
 (pdftex.def)             Requested size: 234.8775pt x 176.15768pt.
 
-Overfull \hbox (1.99501pt too wide) in paragraph at lines 299--329
+Overfull \hbox (1.99501pt too wide) in paragraph at lines 296--326
 []$[]$ $[]$
  []
 
 
-Overfull \hbox (1.99501pt too wide) in paragraph at lines 299--329
+Overfull \hbox (1.99501pt too wide) in paragraph at lines 296--326
 []$ $[]$
  []
 
 
-Overfull \hbox (1.99501pt too wide) in paragraph at lines 299--329
+Overfull \hbox (1.99501pt too wide) in paragraph at lines 296--326
 []$ $[]$ 
  []
 
@@ -1441,14 +1451,14 @@ Package epstopdf Info: Source file: <images/89a.eps>
 (epstopdf)                    size: 20224 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/89a-eps-converted-t
 o.pdf images/89a.eps>
-(epstopdf)             \includegraphics on input line 373.
+(epstopdf)             \includegraphics on input line 370.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/89a-eps-converted-to.pdf, id=394, 433.62pt x 289.08pt>
+<images/89a-eps-converted-to.pdf, id=381, 433.62pt x 289.08pt>
 File: images/89a-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/89a-eps-converted-to.pdf>
-Package pdftex.def Info: images/89a-eps-converted-to.pdf used on input line 373
+Package pdftex.def Info: images/89a-eps-converted-to.pdf used on input line 370
 .
 (pdftex.def)             Requested size: 234.8775pt x 156.58607pt.
 Package epstopdf Info: Source file: <images/89b.eps>
@@ -1459,14 +1469,14 @@ Package epstopdf Info: Source file: <images/89b.eps>
 (epstopdf)                    size: 18607 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/89b-eps-converted-t
 o.pdf images/89b.eps>
-(epstopdf)             \includegraphics on input line 378.
+(epstopdf)             \includegraphics on input line 375.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/89b-eps-converted-to.pdf, id=395, 433.62pt x 289.08pt>
+<images/89b-eps-converted-to.pdf, id=382, 433.62pt x 289.08pt>
 File: images/89b-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/89b-eps-converted-to.pdf>
-Package pdftex.def Info: images/89b-eps-converted-to.pdf used on input line 378
+Package pdftex.def Info: images/89b-eps-converted-to.pdf used on input line 375
 .
 (pdftex.def)             Requested size: 234.8775pt x 156.58607pt.
 Package epstopdf Info: Source file: <images/89c.eps>
@@ -1477,14 +1487,14 @@ Package epstopdf Info: Source file: <images/89c.eps>
 (epstopdf)                    size: 18624 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/89c-eps-converted-t
 o.pdf images/89c.eps>
-(epstopdf)             \includegraphics on input line 383.
+(epstopdf)             \includegraphics on input line 380.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/89c-eps-converted-to.pdf, id=396, 433.62pt x 289.08pt>
+<images/89c-eps-converted-to.pdf, id=383, 433.62pt x 289.08pt>
 File: images/89c-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/89c-eps-converted-to.pdf>
-Package pdftex.def Info: images/89c-eps-converted-to.pdf used on input line 383
+Package pdftex.def Info: images/89c-eps-converted-to.pdf used on input line 380
 .
 (pdftex.def)             Requested size: 234.8775pt x 156.58607pt.
 Package epstopdf Info: Source file: <images/89d.eps>
@@ -1495,28 +1505,38 @@ Package epstopdf Info: Source file: <images/89d.eps>
 (epstopdf)                    size: 18372 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/89d-eps-converted-t
 o.pdf images/89d.eps>
-(epstopdf)             \includegraphics on input line 388.
+(epstopdf)             \includegraphics on input line 385.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/89d-eps-converted-to.pdf, id=397, 433.62pt x 289.08pt>
+<images/89d-eps-converted-to.pdf, id=384, 433.62pt x 289.08pt>
 File: images/89d-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/89d-eps-converted-to.pdf>
-Package pdftex.def Info: images/89d-eps-converted-to.pdf used on input line 388
+Package pdftex.def Info: images/89d-eps-converted-to.pdf used on input line 385
 .
 (pdftex.def)             Requested size: 234.8775pt x 156.58607pt.
 
-Overfull \hbox (1.99501pt too wide) in paragraph at lines 372--392
+Overfull \hbox (1.99501pt too wide) in paragraph at lines 369--389
 []$[]$ $[]$
  []
 
 
-Overfull \hbox (1.99501pt too wide) in paragraph at lines 372--392
+Overfull \hbox (1.99501pt too wide) in paragraph at lines 369--389
 []$ $[]$ 
  []
 
 [11 <./images/89a-eps-converted-to.pdf> <./images/89b-eps-converted-to.pdf> <./
 images/89c-eps-converted-to.pdf> <./images/89d-eps-converted-to.pdf>]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 400.
+
+
+(c:/texlive/2015/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <7.77005> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 400.
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <5> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 400.
 Package epstopdf Info: Source file: <images/89bexp.eps>
 (epstopdf)                    date: 2015-12-24 18:58:00
 (epstopdf)                    size: 50870 bytes
@@ -1525,18 +1545,20 @@ Package epstopdf Info: Source file: <images/89bexp.eps>
 (epstopdf)                    size: 18822 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/89bexp-eps-converte
 d-to.pdf images/89bexp.eps>
-(epstopdf)             \includegraphics on input line 407.
+(epstopdf)             \includegraphics on input line 405.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/89bexp-eps-converted-to.pdf, id=489, 578.16pt x 433.62pt>
+<images/89bexp-eps-converted-to.pdf, id=478, 578.16pt x 433.62pt>
 File: images/89bexp-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/89bexp-eps-converted-to.pdf>
 Package pdftex.def Info: images/89bexp-eps-converted-to.pdf used on input line 
-407.
+405.
 (pdftex.def)             Requested size: 234.8775pt x 176.15768pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9.03374> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 406.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 408.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 406.
 Package epstopdf Info: Source file: <images/89cexp.eps>
 (epstopdf)                    date: 2015-12-24 19:05:07
 (epstopdf)                    size: 49406 bytes
@@ -1545,47 +1567,44 @@ Package epstopdf Info: Source file: <images/89cexp.eps>
 (epstopdf)                    size: 18824 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/89cexp-eps-converte
 d-to.pdf images/89cexp.eps>
-(epstopdf)             \includegraphics on input line 412.
+(epstopdf)             \includegraphics on input line 410.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/89cexp-eps-converted-to.pdf, id=490, 578.16pt x 433.62pt>
+<images/89cexp-eps-converted-to.pdf, id=479, 578.16pt x 433.62pt>
 File: images/89cexp-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/89cexp-eps-converted-to.pdf>
 Package pdftex.def Info: images/89cexp-eps-converted-to.pdf used on input line 
-412.
+410.
 (pdftex.def)             Requested size: 234.8775pt x 176.15768pt.
 
-Overfull \hbox (1.99501pt too wide) in paragraph at lines 406--416
+Overfull \hbox (1.99501pt too wide) in paragraph at lines 404--414
 []$[]$ $[]$ 
  []
 
 
-Overfull \hbox (2.38762pt too wide) in paragraph at lines 421--424
-[]\C19/rm/m/n/10.5/49 , \C19/rm/m/n/10.5/61 ò \C19/rm/m/n/10.5/41 ê \C19/rm/m/n
-/10.5/50 °|\C19/rm/m/n/10.5/26 ß| \C19/rm/m/n/10.5/38 ^^F \C19/rm/m/n/10.5/63 ^
-^] \C19/rm/m/n/10.5/65 ] \C19/rm/m/n/10.5/49 ^^N \C19/rm/m/n/10.5/64 ^^? \C19/r
-m/m/n/10.5/40 ^^W \C19/rm/m/n/10.5/64 ü \C19/rm/m/n/10.5/65 f \C19/rm/m/n/10.5/
-40 ^^[ \C19/rm/m/n/10.5/43 Ó \C19/rm/m/n/10.5/59 ï \C19/rm/m/n/10.5/38 µ \C19/r
-m/m/n/10.5/62 ˛ \C19/rm/m/n/10.5/55 û \C19/rm/m/n/10.5/45 m \C19/rm/m/n/10.5/61
- ò \C19/rm/m/n/10.5/36 Ñ \C19/rm/m/n/10.5/63 3$\OT1/ztmcm/m/n/10.5 0\OML/ztmcm/
-m/it/10.5 :\OT1/ztmcm/m/n/10.5 1\OML/ztmcm/m/it/10.5 s$\C19/rm/m/n/10.5/40 ^^[ 
-\C19/rm/m/n/10.5/55 Í \C19/rm/m/n/10.5/48 ˛ \C19/rm/m/n/10.5/45 ?|\C19/rm/m/n/1
-0.5/26 ß| \C19/rm/m/n/10.5/41 ^^M \C19/rm/m/n/10.5/58 ∑ \C19/rm/m/n/10.5/50 Ç \
-C19/rm/m/n/10.5/40 ^^[ \C19/rm/m/n/10.5/55 Í \C19/rm/m/n/10.5/46 ‚ \C19/rm/m/n/
-10.5/59 É \C19/rm/m/n/10.5/37 ' \C19/rm/m/n/10.5/52 Â \C19/rm/m/n/10.5/48 5 \C1
-9/rm/m/n/10.5/60 ^^B \C19/rm/m/n/10.5/49 
+Overfull \hbox (2.38762pt too wide) in paragraph at lines 419--422
+[]\C19/zhsong/m/n/10.5/49 , \C19/rm/m/n/10.5/61 ò \C19/rm/m/n/10.5/41 ê \C19/rm
+/m/n/10.5/50 °|\C19/rm/m/n/10.5/26 ß| \C19/zhsong/m/n/10.5/38 ^^F \C19/rm/m/n/1
+0.5/63 ^^] \C19/rm/m/n/10.5/65 ] \C19/zhsong/m/n/10.5/49 ^^N \C19/rm/m/n/10.5/6
+4 ^^? \C19/rm/m/n/10.5/40 ^^W \C19/rm/m/n/10.5/64 ü \C19/rm/m/n/10.5/65 f \C19/
+rm/m/n/10.5/40 ^^[ \C19/zhsong/m/n/10.5/43 Ó \C19/rm/m/n/10.5/59 ï \C19/zhsong/
+m/n/10.5/38 µ \C19/rm/m/n/10.5/62 ˛ \C19/rm/m/n/10.5/55 û \C19/rm/m/n/10.5/45 m
+ \C19/rm/m/n/10.5/61 ò \C19/rm/m/n/10.5/36 Ñ \C19/rm/m/n/10.5/63 3$\OT1/ztmcm/m
+/n/10.5 0\OML/ztmcm/m/it/10.5 :\OT1/ztmcm/m/n/10.5 1\OML/ztmcm/m/it/10.5 s$\C19
+/rm/m/n/10.5/40 ^^[ \C19/rm/m/n/10.5/55 Í \C19/rm/m/n/10.5/48 ˛ \C19/rm/m/n/10.
+5/45 ?|\C19/rm/m/n/10.5/26 ß| \C19/rm/m/n/10.5/41 ^^M \C19/rm/m/n/10.5/58 ∑ \C1
+9/rm/m/n/10.5/50 Ç \C19/rm/m/n/10.5/40 ^^[ \C19/rm/m/n/10.5/55 Í \C19/zhsong/m/
+n/10.5/46 ‚ \C19/rm/m/n/10.5/59 É \C19/rm/m/n/10.5/37 ' \C19/rm/m/n/10.5/52 Â \
+C19/rm/m/n/10.5/48 5 \C19/zhsong/m/n/10.5/60 ^^B \C19/zhsong/m/n/10.5/49 
 \OT1/ptm/m/n/10.5 3\C19/rm/m/n/10.5/42 á
  []
 
-<images/mfields.png, id=492, 879.285pt x 455.45157pt>
+<images/mfields.png, id=481, 879.285pt x 455.45157pt>
 File: images/mfields.png Graphic file (type png)
  <use images/mfields.png>
-Package pdftex.def Info: images/mfields.png used on input line 433.
+Package pdftex.def Info: images/mfields.png used on input line 431.
 (pdftex.def)             Requested size: 375.80544pt x 194.65892pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [12 <./images/89bexp-eps-converted-to.pdf> <./images/89cexp-eps-converted-to.pd
 f>]
@@ -1597,11 +1616,11 @@ Package epstopdf Info: Source file: <images/89e.eps>
 (epstopdf)                    size: 20299 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/89e-eps-converted-t
 o.pdf images/89e.eps>
-(epstopdf)             \includegraphics on input line 451.
+(epstopdf)             \includegraphics on input line 449.
 Package epstopdf Info: Output file is already uptodate.
 File: images/89e-eps-converted-to.pdf Graphic file (type pdf)
  <use images/89e-eps-converted-to.pdf>
-Package pdftex.def Info: images/89e-eps-converted-to.pdf used on input line 451
+Package pdftex.def Info: images/89e-eps-converted-to.pdf used on input line 449
 .
 (pdftex.def)             Requested size: 234.8775pt x 176.15768pt.
 Package epstopdf Info: Source file: <images/89_0.eps>
@@ -1612,18 +1631,18 @@ Package epstopdf Info: Source file: <images/89_0.eps>
 (epstopdf)                    size: 14083 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/89_0-eps-converted-
 to.pdf images/89_0.eps>
-(epstopdf)             \includegraphics on input line 456.
+(epstopdf)             \includegraphics on input line 454.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/89_0-eps-converted-to.pdf, id=543, 578.16pt x 433.62pt>
+<images/89_0-eps-converted-to.pdf, id=535, 578.16pt x 433.62pt>
 File: images/89_0-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/89_0-eps-converted-to.pdf>
 Package pdftex.def Info: images/89_0-eps-converted-to.pdf used on input line 45
-6.
+4.
 (pdftex.def)             Requested size: 234.8775pt x 176.15768pt.
 
-Overfull \hbox (1.99501pt too wide) in paragraph at lines 450--460
+Overfull \hbox (1.99501pt too wide) in paragraph at lines 448--458
 []$[]$ $[]$ 
  []
 
@@ -1635,21 +1654,20 @@ Package epstopdf Info: Source file: <images/89l.eps>
 (epstopdf)                    size: 71764 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/89l-eps-converted-t
 o.pdf images/89l.eps>
-(epstopdf)             \includegraphics on input line 468.
+(epstopdf)             \includegraphics on input line 466.
 Package epstopdf Info: Output file is already uptodate.
-<images/89l-eps-converted-to.pdf, id=545, 1232.605pt x 595.22375pt>
+<images/89l-eps-converted-to.pdf, id=537, 1232.605pt x 595.22375pt>
 File: images/89l-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/89l-eps-converted-to.pdf>
-Package pdftex.def Info: images/89l-eps-converted-to.pdf used on input line 468
+Package pdftex.def Info: images/89l-eps-converted-to.pdf used on input line 466
 .
 (pdftex.def)             Requested size: 469.75502pt x 226.84131pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[13 <./images/mfields.png>] [14 <./images/89_0-eps-converted-to.pdf> <./images/
-89l-eps-converted-to.pdf>]
+[13 <./images/mfields.png>]
 Package epstopdf Info: Source file: <images/89_10.eps>
 (epstopdf)                    date: 2016-01-08 01:26:51
 (epstopdf)                    size: 23427 bytes
@@ -1658,16 +1676,18 @@ Package epstopdf Info: Source file: <images/89_10.eps>
 (epstopdf)                    size: 14055 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/89_10-eps-converted
 -to.pdf images/89_10.eps>
-(epstopdf)             \includegraphics on input line 481.
+(epstopdf)             \includegraphics on input line 479.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/89_10-eps-converted-to.pdf, id=605, 578.16pt x 433.62pt>
+<images/89_10-eps-converted-to.pdf, id=550, 578.16pt x 433.62pt>
 File: images/89_10-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/89_10-eps-converted-to.pdf>
 Package pdftex.def Info: images/89_10-eps-converted-to.pdf used on input line 4
-81.
+79.
 (pdftex.def)             Requested size: 375.80544pt x 281.84966pt.
+ [14 <./images/89_0-eps-converted-to.pdf> <./images/89l-eps-converted-to.pdf>] 
+[15 <./images/89_10-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <images/89m.eps>
 (epstopdf)                    date: 2016-01-08 02:35:44
 (epstopdf)                    size: 396663 bytes
@@ -1676,130 +1696,117 @@ Package epstopdf Info: Source file: <images/89m.eps>
 (epstopdf)                    size: 101981 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/89m-eps-converted-t
 o.pdf images/89m.eps>
-(epstopdf)             \includegraphics on input line 498.
+(epstopdf)             \includegraphics on input line 499.
 Package epstopdf Info: Output file is already uptodate.
-
-<images/89m-eps-converted-to.pdf, id=608, 578.16pt x 433.62pt>
+ <images/89m-eps-converted-to.pdf, id=631, 578.16pt x 433.62pt>
 File: images/89m-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/89m-eps-converted-to.pdf>
-Package pdftex.def Info: images/89m-eps-converted-to.pdf used on input line 498
+Package pdftex.def Info: images/89m-eps-converted-to.pdf used on input line 499
 .
 (pdftex.def)             Requested size: 469.75502pt x 352.31538pt.
- [15 <./images/89_10-eps-converted-to.pdf>] [16 <./images/89m-eps-converted-to.
-pdf>] [17]
-Underfull \hbox (badness 1789) in paragraph at lines 546--562
+ [16 <./images/89m-eps-converted-to.pdf>]
+[17]
+Underfull \hbox (badness 1789) in paragraph at lines 548--549
 []\OT1/ptm/m/n/10.5 Relaxation (NMR). Wikipedia[DB/OL]. [][]$\OT1/pcr/m/n/10.5 
 https : / / en . wikipedia . org / wiki / Relaxation _
  []
 
-[18]
+[18]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote
+.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.575 ...quad Tel: 15920544949 \quad ID£∫12309011}
+                                                  
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <7.52812> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 575.
 
-Package hyperref Warning: Ignoring empty anchor on input line 572.
-
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 572.
-
-(c:/texlive/2015/texmf-dist/tex/latex/psnfss/omsptm.fd
-File: omsptm.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.5> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 572.
-
-Overfull \hbox (1.82141pt too wide) in paragraph at lines 572--572
-[]\OMS/cmsy/m/n/10.5 y 
+Overfull \hbox (1.09805pt too wide) in paragraph at lines 575--575
+[]\OMS/cmsy/m/n/7.52812 y 
  []
 
 
-Overfull \hbox (17.24945pt too wide) in paragraph at lines 572--572
+Overfull \hbox (17.24945pt too wide) in paragraph at lines 575--575
 [][][]| $[]$| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 580--580
-[]\OT1/ptm/b/n/15.05624 Keywords:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 580--580
-
- []
-
-
-Overfull \hbox (30.11249pt too wide) in paragraph at lines 582--582
+Overfull \hbox (21.0pt too wide) in paragraph at lines 597--597
 []$[]$ 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 584.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 599.
 [19]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 584.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 599.
  (./template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 584.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 584.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 599.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 599.
 Package rerunfilecheck Info: File `template.out' has not changed.
-(rerunfilecheck)             Checksum: 0F44D55EE2890FED6F8A1F5B40337461;1648.
+(rerunfilecheck)             Checksum: 609B6A8CC0BC108BB2A6F854AB0CD23A;1458.
 
 
 LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 0.65625pt have occurred.
+(Font)              up to 0.47188pt have occurred.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 23233 strings out of 493089
- 397434 string characters out of 6138424
- 546461 words of memory out of 5000000
- 26171 multiletter control sequences out of 15000+600000
- 129191 words of font info for 362 fonts, out of 8000000 for 9000
+ 23309 strings out of 493089
+ 399447 string characters out of 6138424
+ 546386 words of memory out of 5000000
+ 26256 multiletter control sequences out of 15000+600000
+ 117392 words of font info for 336 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,12n,47p,10435b,530s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,12n,47p,10435b,543s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts
 /simfang.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WI
 NDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simsun.tt
 c><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/s
 imhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS
-/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simfang.ttf><c
-:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/sim
-hei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/f
-onts/simhei.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simfang.ttf><c:
-/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simh
-ei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fo
-nts/simhei.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simfang.ttf>{c:/
-texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/WINDOWS/fonts/simfang.t
-tf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/font
-s/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WIND
-OWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc>
-<c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/s
-imsun.ttc><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS
-/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:
-/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun
-.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/font
-s/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WIND
+/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:
+/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simfan
+g.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/f
+onts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/W
+INDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simsun.t
+tc><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/font
+s/simfang.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/W
+INDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simsun
+.ttc>{c:/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/WINDOWS/fonts/
+simfang.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WIND
 OWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc>
 <c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/sim
 sun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/f
 onts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/W
 INDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.t
-tc><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/
-simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOW
-S/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simsun.ttc><c
+tc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/
+simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOW
+S/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c
 :/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsu
 n.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fon
-ts/simsun.ttc><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10
-.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/
-texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/20
-15/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2015/texmf-
-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2015/texmf-dist/fonts/type1
-/urw/symbol/usyr.pfb><c:/texlive/2015/texmf-dist/fonts/type1/urw/symbol/usyr.pf
-b><c:/texlive/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2015
-/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2015/texmf-dist/fonts/
-type1/urw/times/utmr8a.pfb><c:/texlive/2015/texmf-dist/fonts/type1/urw/times/ut
-mri8a.pfb>
-Output written on template.pdf (19 pages, 2001526 bytes).
+ts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WIN
+DOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf
+><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/si
+mhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/
+fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/
+WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.
+ttc><c:/WINDOWS/fonts/simsun.ttc><c:/texlive/2015/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmex10.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmmi10.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10
+.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/
+texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/20
+15/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2015/texmf-d
+ist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2015/texmf-dist/fonts/type1/
+urw/symbol/usyr.pfb><c:/texlive/2015/texmf-dist/fonts/type1/urw/symbol/usyr.pfb
+><c:/texlive/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2015/
+texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2015/texmf-dist/fonts/t
+ype1/urw/times/utmr8a.pfb><c:/texlive/2015/texmf-dist/fonts/type1/urw/times/utm
+ri8a.pfb>
+Output written on template.pdf (19 pages, 2015860 bytes).
 PDF statistics:
- 995 PDF objects out of 1000 (max. 8388607)
- 597 compressed objects within 6 object streams
- 71 named destinations out of 1000 (max. 500000)
- 226 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 991 PDF objects out of 1000 (max. 8388607)
+ 593 compressed objects within 6 object streams
+ 68 named destinations out of 1000 (max. 500000)
+ 210 words of extra memory for PDF output out of 10000 (max. 10000000)
 

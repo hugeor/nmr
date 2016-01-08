@@ -120,31 +120,31 @@ to\textwidth{\vbox{\hfill\small\sl 近代物理实验（I）\hfill}}
 \vspace*{2pt} \begin{minipage}[t]{2mm} {\raisebox{-1.5pt}[0cm][0cm]{*}}\end{minipage}
 \begin{minipage}[t]{160.5mm}#1\end{minipage}
 \end{minipage}\vspace*{4.6pt}}}
-\def\etitle#1{{\vspace{6pt}\begin{center} \LARGE\bf #1 \end{center} \vspace*{2mm}}}
-\def\author#1{{\begin{center}{\Large #1}\end{center}}}
-\def\eaddress#1#2{{\centering{\large{#1}{\hglue2pt(\,{\it #2}\,)}}\vglue1pt}}
-\def\edate#1{\begin{center}\vglue-1.4ex{\small(#1)}\end{center}}
-\def\eabstract#1{\Large\vglue5ex\noindent\begin{minipage}{\textwidth}\parindent=20pt
+\def\etitle#1{{\vspace{6pt}\begin{center} \large\bf #1 \end{center} \vspace*{2mm}}}
+\def\author#1{{\begin{center}{\normalsize #1}\end{center}}}
+\def\eaddress#1#2{{\centering{\small{#1}{\hglue2pt(\,{\it #2}\,)}}\vglue1pt}}
+\def\edate#1{\begin{center}\vglue-1.4ex{\footnotesize(#1)}\end{center}}
+\def\eabstract#1{\normalsize\vglue5ex\noindent\begin{minipage}{\textwidth}\parindent=20pt
 \begin{center}{\bf Abstract}\end{center}\par\vglue-9pt #1 \end{minipage}\par\vglue2pt}
 
 \def\ekeywords#1{\vspace*{3ex}\noindent\protect\begin{minipage}[t]{\textwidth}
-\leftskip -0mm \protect{\begin{minipage}[t]{27.0mm}\Large\bf Keywords:
-{\;}\end{minipage}}\protect {\begin{minipage}[t]{100mm}\Large\baselineskip=1pt
-#1\end{minipage}}\end{minipage}\vspace*{-3ex}}
+\leftskip -0mm \protect{\begin{minipage}[t]{27.0mm}\normalsize\bf Keywords:
+{\;}\end{minipage}}\protect {\begin{minipage}[t]{100mm}\normalsize\baselineskip=1pt
+#1\end{minipage}}\end{minipage}\vspace*{3ex}}
 
-\def\epacs#1{\begin{minipage}{\textwidth}\Large\leftskip-4.4ex\noindent{\bf PACS: \ } #1\end{minipage}\par\vglue.2cm}
+\def\epacs#1{\begin{minipage}{\textwidth}\normalsize\leftskip-4.4ex\noindent{\bf PACS: \ } #1\end{minipage}\par\vglue.2cm}
 
-\def\efund#1{\footnotetext{\hspace*{-1.6mm}\normalsize\begin{minipage}{162.5mm}
-\baselineskip=8pt plus.2pt minus.1pt\vspace*{2pt}
-\begin{minipage}[t]{6pt}{\raisebox{-1.5pt}[0cm][0cm]{*}}\end{minipage}
-\begin{minipage}[t]{160.5mm}#1\end{minipage}
-\end{minipage}\vspace*{6.6pt}}}
+%\def\efund#1{\footnotetext{\hspace*{-1.6mm}\small\begin{minipage}{162.5mm}
+%\baselineskip=8pt plus.2pt minus.1pt\vspace*{2pt}
+%\begin{minipage}[t]{6pt}{\raisebox{-1.5pt}[0cm][0cm]{*}}\end{minipage}
+%\begin{minipage}[t]{160.5mm}#1\end{minipage}
+%\end{minipage}\vspace*{6.6pt}}}
 
-\def\email#1{\footnotetext{\hspace*{-1.6mm}\normalsize\begin{minipage}{168mm}
+\def\email#1{\footnotetext{\hspace*{-1.6mm}\footnotesize\begin{minipage}{168mm}
 \vglue1ex\begin{minipage}[t]{1mm}{\dag}\end{minipage}
 \begin{minipage}[t]{163mm}\ Corresponding author.  E-mail: #1\end{minipage}
 \end{minipage}}}
-\def\emailddag#1{\footnotetext{\hspace*{-1.6mm}\normalsize\begin{minipage}{168mm}
+\def\emailddag#1{\footnotetext{\hspace*{-1.6mm}\footnotesize\begin{minipage}{168mm}
 \vglue1ex\begin{minipage}[t]{1mm}{\ddag}\end{minipage}
 \begin{minipage}[t]{163mm}\ Corresponding author.   E-mail: #1\end{minipage}
 \end{minipage}}}
