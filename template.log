@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2015.12.24)  8 JAN 2016 03:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2015.12.24)  8 JAN 2016 12:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1648,7 +1648,8 @@ Package pdftex.def Info: images/89l-eps-converted-to.pdf used on input line 468
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[13 <./images/mfields.png>]
+[13 <./images/mfields.png>] [14 <./images/89_0-eps-converted-to.pdf> <./images/
+89l-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <images/89_10.eps>
 (epstopdf)                    date: 2016-01-08 01:26:51
 (epstopdf)                    size: 23427 bytes
@@ -1660,14 +1661,13 @@ Package epstopdf Info: Source file: <images/89_10.eps>
 (epstopdf)             \includegraphics on input line 481.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/89_10-eps-converted-to.pdf, id=558, 578.16pt x 433.62pt>
+<images/89_10-eps-converted-to.pdf, id=605, 578.16pt x 433.62pt>
 File: images/89_10-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/89_10-eps-converted-to.pdf>
 Package pdftex.def Info: images/89_10-eps-converted-to.pdf used on input line 4
 81.
 (pdftex.def)             Requested size: 375.80544pt x 281.84966pt.
- [14 <./images/89_0-eps-converted-to.pdf> <./images/89l-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <images/89m.eps>
 (epstopdf)                    date: 2016-01-08 02:35:44
 (epstopdf)                    size: 396663 bytes
@@ -1679,112 +1679,79 @@ o.pdf images/89m.eps>
 (epstopdf)             \includegraphics on input line 498.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/89m-eps-converted-to.pdf, id=609, 578.16pt x 433.62pt>
+<images/89m-eps-converted-to.pdf, id=608, 578.16pt x 433.62pt>
 File: images/89m-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/89m-eps-converted-to.pdf>
 Package pdftex.def Info: images/89m-eps-converted-to.pdf used on input line 498
 .
 (pdftex.def)             Requested size: 469.75502pt x 352.31538pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[15 <./images/89_10-eps-converted-to.pdf>] [16 <./images/89m-eps-converted-to.p
-df>]
+ [15 <./images/89_10-eps-converted-to.pdf>] [16 <./images/89m-eps-converted-to.
+pdf>] [17]
 Underfull \hbox (badness 1789) in paragraph at lines 546--562
 []\OT1/ptm/m/n/10.5 Relaxation (NMR). Wikipedia[DB/OL]. [][]$\OT1/pcr/m/n/10.5 
 https : / / en . wikipedia . org / wiki / Relaxation _
  []
 
-[17] [18]
-LaTeX Font Info:    Calculating math sizes for size <21> on input line 568.
+[18]
 
+Package hyperref Warning: Ignoring empty anchor on input line 572.
 
-LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <15.54012> not available
-(Font)              size <14.4> substituted on input line 568.
-
-
-LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <12.60013> not available
-(Font)              size <12> substituted on input line 568.
-
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <21> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 568.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <15.54012> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 568.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12.60013> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 568.
-
-Package hyperref Warning: Ignoring empty anchor on input line 570.
-
-
-Overfull \hbox (2.30447pt too wide) in paragraph at lines 570--570
-[][] [] 
- []
-
-
-Overfull \hbox (1.60043pt too wide) in paragraph at lines 570--570
-[][][]| $[]$| 
- []
-
-
-Package hyperref Warning: Ignoring empty anchor on input line 575.
-
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 575.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 572.
 
 (c:/texlive/2015/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.5> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 575.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 572.
 
-Overfull \hbox (1.82141pt too wide) in paragraph at lines 575--575
+Overfull \hbox (1.82141pt too wide) in paragraph at lines 572--572
 []\OMS/cmsy/m/n/10.5 y 
  []
 
 
-Overfull \hbox (17.24945pt too wide) in paragraph at lines 575--575
+Overfull \hbox (17.24945pt too wide) in paragraph at lines 572--572
 [][][]| $[]$| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 587--587
+Underfull \hbox (badness 10000) in paragraph at lines 580--580
 []\OT1/ptm/b/n/15.05624 Keywords:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 587--587
+Underfull \hbox (badness 10000) in paragraph at lines 580--580
 
  []
 
 
-Overfull \hbox (30.11249pt too wide) in paragraph at lines 589--589
+Overfull \hbox (30.11249pt too wide) in paragraph at lines 582--582
 []$[]$ 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 591.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 584.
 [19]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 591.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 584.
  (./template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 591.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 591.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 584.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 584.
 Package rerunfilecheck Info: File `template.out' has not changed.
 (rerunfilecheck)             Checksum: 0F44D55EE2890FED6F8A1F5B40337461;1648.
 
 
 LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 1.14012pt have occurred.
+(Font)              up to 0.65625pt have occurred.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 23261 strings out of 493089
- 397827 string characters out of 6138424
+ 23233 strings out of 493089
+ 397434 string characters out of 6138424
  546461 words of memory out of 5000000
- 26195 multiletter control sequences out of 15000+600000
- 143300 words of font info for 400 fonts, out of 8000000 for 9000
+ 26171 multiletter control sequences out of 15000+600000
+ 129191 words of font info for 362 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,12n,47p,10435b,530s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts
@@ -1803,8 +1770,8 @@ texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/WINDOWS/fonts/simfang.t
 tf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/font
 s/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WIND
 OWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc>
-<c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/si
-mfang.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS
+<c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/s
+imsun.ttc><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS
 /fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:
 /WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun
 .ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/font
@@ -1829,7 +1796,7 @@ b><c:/texlive/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2015
 /texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2015/texmf-dist/fonts/
 type1/urw/times/utmr8a.pfb><c:/texlive/2015/texmf-dist/fonts/type1/urw/times/ut
 mri8a.pfb>
-Output written on template.pdf (19 pages, 2004147 bytes).
+Output written on template.pdf (19 pages, 2001526 bytes).
 PDF statistics:
  995 PDF objects out of 1000 (max. 8388607)
  597 compressed objects within 6 object streams
